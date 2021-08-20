@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(CapsuleCollider2D))]
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 7;
     public float jumpImpulse = 7;
     public float gravityModifier;
-    public float climbSpeed;
+
     public Transform groundCheck1;
     public Transform groundCheck2;
     public Transform rightWallCheck1;
@@ -17,6 +19,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
     public float checkDistance;
     public Transform currentSpawn;
+    public float CoyoteTime = 0.35f;
 
     private bool facingRight = true;
     private SpriteRenderer spriteRenderer;
@@ -28,13 +31,11 @@ public class PlayerController : MonoBehaviour
     private bool nextToLeftWall = false;
     private bool endJump = false;
     private bool jumping = false;
-    private bool canClimb = false;
-    private bool climbing = false;
-    private bool stairTop = false;
     private bool isSpawning = false;
     private bool isDead = false;
     private float currentGrowth = 0;
     private float growthFactor = 1;
+    private float _timerCoyote;
     private bool hasWon = false;
 
     private void OnDrawGizmos()
@@ -50,7 +51,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
     }
@@ -77,7 +78,6 @@ public class PlayerController : MonoBehaviour
             CheckWall();
             CheckMove();
             CheckJump();
-            CheckClimb();
         }
     }
 
@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
             if (!nextToRightWall)
             {
                 rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-                anim.SetBool("Walking", true);
+                //anim.SetBool("Walking", true);
             }
             else
             {
@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
             if (!nextToLeftWall)
             {
                 rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
-                anim.SetBool("Walking", true);
+                //anim.SetBool("Walking", true);
             }
             else
             {
@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
     private void StopHorizontalMove()
     {
         rb.velocity = new Vector2(0, rb.velocity.y);
-        anim.SetBool("Walking", false);
+        //anim.SetBool("Walking", false);
     }
 
     private void CheckJump()
@@ -138,9 +138,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             isGrounded = false;
-            climbing = false;
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
-            anim.SetBool("Jumping", true);
+            //anim.SetBool("Jumping", true);
 
             jumping = true;
             Invoke(nameof(EnableClimbAfterJump), 0.3f);
@@ -164,18 +163,21 @@ public class PlayerController : MonoBehaviour
         if (Physics2D.Raycast(groundCheck1.position, Vector2.down, checkDistance, groundLayer) ||
             Physics2D.Raycast(groundCheck2.position, Vector2.down, checkDistance, groundLayer))
         {
-            rb.velocity = new Vector2(rb.velocity.x, 0);
-            isGrounded = true;
-            endJump = false;
-            anim.SetBool("Jumping", false);
+            if(rb.velocity.y < 0)
+            { 
+                _timerCoyote = CoyoteTime;
+                rb.velocity = new Vector2(rb.velocity.x, 0);
+                isGrounded = true;
+                endJump = false;
+            }
+            //anim.SetBool("Jumping", false);
         }
         else
         {
-            if (!climbing)
-            {
-                rb.AddForce(Vector2.down * gravityModifier);
+            rb.AddForce(Vector2.down * gravityModifier);
+            _timerCoyote -= Time.deltaTime;
+            if(_timerCoyote <= 0)
                 isGrounded = false;
-            }
         }
     }
 
@@ -202,37 +204,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void CheckClimb()
-    {
-        if (canClimb && !jumping)
-        {
-            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
-            {
-                if (!stairTop)
-                {
-                    transform.Translate(Vector2.up * climbSpeed * Time.deltaTime);
-                    StartClimb();
-                }
-            }
-            
-            if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
-            {
-                transform.Translate(Vector2.down * climbSpeed * Time.deltaTime);
-                StartClimb();
-            }
-        }
-    }
 
-    private void StartClimb()
-    {
-        anim.SetBool("Jumping", false);
-        anim.SetBool("Walking", false);
-        anim.SetBool("Climbing", true);
-        rb.velocity = new Vector2(rb.velocity.x, 0);
-        climbing = true;
-        isGrounded = true;
-        endJump = false;
-    }
 
     private void Flip()
     {
@@ -241,17 +213,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Stairs"))
-        {
-            canClimb = true;
-        }
-
-        else if (other.CompareTag("StairTop"))
-        {
-            stairTop = true;
-        }
-
-        else if (other.CompareTag("Spikes"))
+        if (other.CompareTag("Spikes"))
         {
             Die();
         }
@@ -262,31 +224,6 @@ public class PlayerController : MonoBehaviour
             {
                 currentSpawn = other.transform;
             }
-        }
-
-        else if (other.CompareTag("Ending"))
-        {
-            if (!hasWon)
-            {
-                anim.SetTrigger("Win");
-                hasWon = true;
-                StopHorizontalMove();
-            }
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Stairs"))
-        {
-            canClimb = false;
-            climbing = false;
-            anim.SetBool("Climbing", false);
-        }
-
-        else if (other.CompareTag("StairTop"))
-        {
-            stairTop = false;
         }
     }
 
@@ -324,7 +261,7 @@ public class PlayerController : MonoBehaviour
         spriteRenderer.flipY = true;
         rb.velocity = Vector2.up * 5;
         capsuleCollider.enabled = false;
-        anim.SetBool("Walking", false);
+        //anim.SetBool("Walking", false);
 
         Invoke(nameof(Spawn), 1.5f);
     }
