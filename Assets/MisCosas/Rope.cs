@@ -200,7 +200,7 @@ public class Rope : MonoBehaviour
     public float LockClosestPoint(float distance)
     {
         _blockPointIndex = 0;
-        for (int i = 0; i < segmentLength; i++)
+        for (int i = 1; i < segmentLength; i++)
         {
             if (Vector2.Distance(ropeSegments[i].posNow, Player.transform.position) < distance)
             {
@@ -210,12 +210,17 @@ public class Rope : MonoBehaviour
             }
         }
 
+        Player.GetComponent<PlayerController>().HookPlayer();
+
         return (segmentLength - _blockPointIndex + 2) * ropeSegLen;
+
     }
 
     public void ReleaseBlock()
     {
         _blockPointIndex = 0;
+
+        Player.GetComponent<PlayerController>().UnhookPlayer();
     }
 
     public struct RopeSegment

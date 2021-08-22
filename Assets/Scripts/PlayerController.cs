@@ -6,10 +6,12 @@ using UnityEngine;
 [RequireComponent(typeof(CapsuleCollider2D))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Paramenters")]
     public float moveSpeed = 7;
     public float jumpImpulse = 7;
     public float gravityModifier;
 
+    [Header("Raycasts")]
     public Transform groundCheck1;
     public Transform groundCheck2;
     public Transform rightWallCheck1;
@@ -18,8 +20,11 @@ public class PlayerController : MonoBehaviour
     public Transform leftWallCheck2;
     public LayerMask groundLayer;
     public float checkDistance;
+
+    [Header("Miscelaneous")]
     public Transform currentSpawn;
     public float CoyoteTime = 0.35f;
+
 
     private bool facingRight = true;
     private SpriteRenderer spriteRenderer;
@@ -37,6 +42,7 @@ public class PlayerController : MonoBehaviour
     private float growthFactor = 1;
     private float _timerCoyote;
     private bool hasWon = false;
+    private bool _hooked;
 
     private void OnDrawGizmos()
     {
@@ -129,7 +135,8 @@ public class PlayerController : MonoBehaviour
 
     private void StopHorizontalMove()
     {
-        rb.velocity = new Vector2(0, rb.velocity.y);
+        if(!_hooked)
+            rb.velocity = new Vector2(0, rb.velocity.y);
         //anim.SetBool("Walking", false);
     }
 
@@ -166,7 +173,7 @@ public class PlayerController : MonoBehaviour
             if(rb.velocity.y < 0)
             { 
                 _timerCoyote = CoyoteTime;
-                rb.velocity = new Vector2(rb.velocity.x, 0);
+                //rb.velocity = new Vector2(rb.velocity.x, 0);
                 isGrounded = true;
                 endJump = false;
             }
@@ -174,7 +181,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            rb.AddForce(Vector2.down * gravityModifier);
+            //rb.AddForce(Vector2.down * gravityModifier);
             _timerCoyote -= Time.deltaTime;
             if(_timerCoyote <= 0)
                 isGrounded = false;
@@ -269,5 +276,15 @@ public class PlayerController : MonoBehaviour
     private void EnableClimbAfterJump()
     {
         jumping = false;
+    }
+
+    public void HookPlayer()
+    {
+        _hooked = true;
+    }
+
+    public void UnhookPlayer()
+    {
+        _hooked = false;
     }
 }
