@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
     }
@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
             if (!nextToRightWall)
             {
                 rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-                //anim.SetBool("Walking", true);
+                anim.SetBool("IsRunning", true);
             }
             else
             {
@@ -113,7 +113,7 @@ public class PlayerController : MonoBehaviour
             if (!nextToLeftWall)
             {
                 rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
-                //anim.SetBool("Walking", true);
+                anim.SetBool("IsRunning", true);
             }
             else
             {
@@ -137,7 +137,8 @@ public class PlayerController : MonoBehaviour
     {
         if(!_hooked)
             rb.velocity = new Vector2(0, rb.velocity.y);
-        //anim.SetBool("Walking", false);
+
+        anim.SetBool("IsRunning", false);
     }
 
     private void CheckJump()
@@ -146,7 +147,8 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = false;
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
-            //anim.SetBool("Jumping", true);
+            anim.SetBool("IsGrounded", false);
+            anim.SetTrigger("Jump");
 
             jumping = true;
             Invoke(nameof(EnableClimbAfterJump), 0.3f);
@@ -171,17 +173,20 @@ public class PlayerController : MonoBehaviour
             Physics2D.Raycast(groundCheck2.position, Vector2.down, checkDistance, groundLayer))
         {
             if(rb.velocity.y < 0)
-            { 
+            {
+                anim.SetBool("IsGrounded", true);
+
                 _timerCoyote = CoyoteTime;
                 //rb.velocity = new Vector2(rb.velocity.x, 0);
                 isGrounded = true;
                 endJump = false;
             }
-            //anim.SetBool("Jumping", false);
         }
         else
         {
             //rb.AddForce(Vector2.down * gravityModifier);
+            anim.SetBool("IsGrounded", false);
+
             _timerCoyote -= Time.deltaTime;
             if(_timerCoyote <= 0)
                 isGrounded = false;
@@ -215,7 +220,8 @@ public class PlayerController : MonoBehaviour
 
     private void Flip()
     {
-        spriteRenderer.flipX = !facingRight;
+        transform.localScale *= new Vector2(-1, 1);
+        //spriteRenderer.flipX = !facingRight;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -268,7 +274,7 @@ public class PlayerController : MonoBehaviour
         spriteRenderer.flipY = true;
         rb.velocity = Vector2.up * 5;
         capsuleCollider.enabled = false;
-        //anim.SetBool("Walking", false);
+        anim.SetTrigger("Death");
 
         Invoke(nameof(Spawn), 1.5f);
     }
