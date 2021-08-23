@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
     public Transform currentSpawn;
     public float CoyoteTime = 0.35f;
 
+    private static float HookRatioSpeed = 0.45f;
 
     private bool facingRight = true;
     private SpriteRenderer spriteRenderer;
@@ -288,10 +289,12 @@ public class PlayerController : MonoBehaviour
     public void HookPlayer()
     {
         _hooked = true;
+        moveSpeed *= HookRatioSpeed;
     }
 
     public void UnhookPlayer()
     {
         _hooked = false;
+        moveSpeed /= HookRatioSpeed;
     }
 }
