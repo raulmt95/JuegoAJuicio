@@ -191,9 +191,9 @@ LineRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Positions:
-  - {x: 0, y: 0, z: 0}
+  - {x: 1.02, y: 0, z: 0}
   - {x: 0, y: 1, z: 0}
   - {x: 0, y: 2, z: 0}
   - {x: 0, y: 3, z: 0}
@@ -268,9 +268,9 @@ MonoBehaviour:
   hairSegLen: 0.05
   segmentLength: 40
   lineWidth: 0.15
-  GravityForce: -1
-  TimeDrop: 0.01
-  Iterations: 30
+  GravityForce: -0.25
+  TimeDrop: 0.02
+  Iterations: 40
   GrowTime: 0.05
   StartHair: {fileID: 4039330362673314334}
   Player: {fileID: 4039330363150455498}
@@ -316,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4039330362673314335}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.052, y: 0.059, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4039330363231673141}
@@ -458,7 +458,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.05
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -583,7 +583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4039330363231673142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.039, y: 0.362, z: 0}
+  m_LocalPosition: {x: 0.042, y: 0.388, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4039330362673314334}

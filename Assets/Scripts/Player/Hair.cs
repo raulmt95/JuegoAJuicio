@@ -156,9 +156,12 @@ public class Hair : MonoBehaviour
             RopeSegment hookedSegment = hairSegments[_blockPointIndex];
             hookedSegment.posNow = HookPos;
             hairSegments[_blockPointIndex] = hookedSegment;
+        }
 
+        RopeSegment lastSegment = hairSegments[segmentLength - 1];
+        lastSegment.posNow = StartHair.position;
+        hairSegments[segmentLength - 1] = lastSegment;
 
-}
     }
 
     private void CheckBlockLength()
