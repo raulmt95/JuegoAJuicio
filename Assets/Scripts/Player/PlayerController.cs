@@ -24,8 +24,9 @@ public class PlayerController : MonoBehaviour
     public float checkDistance;
 
     [Header("Miscelaneous")]
-    public Transform currentSpawn;
+    public Transform startingSpawn;
     public float CoyoteTime = 0.35f;
+    private Transform currentSpawn;
 
     private static float HookRatioSpeed = 0.45f;
 
@@ -46,6 +47,7 @@ public class PlayerController : MonoBehaviour
     private float _timerCoyote;
     private bool hasWon = false;
     private bool _hooked;
+    private Hair hair;
 
     private void OnDrawGizmos()
     {
@@ -63,11 +65,14 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
+        hair = transform.parent.GetComponentInChildren<Hair>();
     }
 
     private void Start()
     {
-        Spawn();    // ESTO EN OTRO SITIO?
+        currentSpawn = startingSpawn;
+
+        //Spawn();    // ESTO EN OTRO SITIO?
     }
 
     private void Update()
@@ -259,12 +264,14 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(other.name);
+
         if (other.CompareTag("Spikes"))
         {
             Die();
         }
 
-        else if (other.CompareTag("Checkpoint"))
+        if (other.CompareTag("Checkpoint"))
         {
             if (currentSpawn != other.transform)
             {
@@ -276,7 +283,7 @@ public class PlayerController : MonoBehaviour
     private void Spawn()
     {
         capsuleCollider.enabled = true;
-        transform.position = currentSpawn.position;
+        transform.parent.position = currentSpawn.position;
         rb.velocity = Vector2.zero;
         spriteRenderer.flipY = false;
         isSpawning = true;
@@ -301,8 +308,9 @@ public class PlayerController : MonoBehaviour
         isSpawning = false;
     }
 
-    private void Die()
+    public void Die()
     {
+        ResetHair();
         isDead = true;
         spriteRenderer.flipY = true;
         rb.velocity = Vector2.up * 5;
@@ -327,5 +335,10 @@ public class PlayerController : MonoBehaviour
     {
         _hooked = false;
         moveSpeed /= HookRatioSpeed;
+    }
+
+    void ResetHair()
+    {
+        hair.TrapHair(false);
     }
 }

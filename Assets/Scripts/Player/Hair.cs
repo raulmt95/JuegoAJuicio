@@ -28,6 +28,7 @@ public class Hair : MonoBehaviour
 
     private EdgeCollider2D _edgeCol;
 
+    private bool _trapped;
 
     // Use this for initialization
     void Start()
@@ -50,8 +51,13 @@ public class Hair : MonoBehaviour
     {
         DrawHair();
 
-        if(Input.GetKey(KeyCode.R))
+        if(Input.GetKey(KeyCode.R) && !_trapped)
             GrowHair();
+
+        if (_trapped)
+        {
+            ReduceHair();
+        }
     }
 
     private void GrowHair()
@@ -64,6 +70,15 @@ public class Hair : MonoBehaviour
         }
     }
 
+    private void ReduceHair()
+    {
+        _timer += Time.deltaTime;
+        if (_timer > GrowTime)
+        {
+            _timer = 0f;
+            hairSegLen -= _Grownth;
+        }
+    }
     private void FixedUpdate()
     {
         Simulate();
@@ -275,6 +290,16 @@ public class Hair : MonoBehaviour
         }
         float newSegmentLenght = newLength / segmentLength;
         hairSegLen = newSegmentLenght;
+    }
+
+    public void TrapHair(bool state)
+    {
+        _trapped = state;
+    }
+
+    void Die()
+    {
+        Player.GetComponentInChildren<PlayerController>().Die();
     }
 
     public struct RopeSegment
