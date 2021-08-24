@@ -15,7 +15,7 @@ public class Hair : MonoBehaviour
 
     [Header("References")]
     public Transform StartHair;
-    public GameObject Player;
+    public PlayerController Player;
 
     private float _Grownth = 0.001f;
     private float _timer;
@@ -29,6 +29,7 @@ public class Hair : MonoBehaviour
     private EdgeCollider2D _edgeCol;
 
     private bool _trapped;
+    private HookPlaces _currentHook;
 
     // Use this for initialization
     void Start()
@@ -249,21 +250,20 @@ public class Hair : MonoBehaviour
             }
         }
 
-        Player.GetComponent<PlayerController>().HookPlayer();
+        Player.HookPlayer();
 
         return (segmentLength - _blockPointIndex) * hairSegLen;
     }
 
-    public void HookRef(Vector2 pos)
+    public void HookRef(HookPlaces hook)
     {
-        HookPos = pos;
+        HookPos = hook.transform.position;
+        _currentHook = hook;
     }
 
     public void ReleaseBlock()
     {
         _blockPointIndex = 0;
-
-        Player.GetComponent<PlayerController>().UnhookPlayer();
     }
     public float DistanceToHook()
     {
@@ -299,7 +299,19 @@ public class Hair : MonoBehaviour
 
     void Die()
     {
-        Player.GetComponentInChildren<PlayerController>().Die();
+        Player.Die();
+    }
+
+    public void DisableCollider()
+    {
+        _edgeCol.enabled = false;
+    }
+
+    public void Unhook()
+    {
+        _currentHook.Unhook();
+        _currentHook = null;
+        ReleaseBlock();
     }
 
     public struct RopeSegment

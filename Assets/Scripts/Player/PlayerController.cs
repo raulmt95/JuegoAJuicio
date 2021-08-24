@@ -16,10 +16,10 @@ public class PlayerController : MonoBehaviour
     [Header("Raycasts")]
     public Transform groundCheck1;
     public Transform groundCheck2;
-    public Transform rightWallCheck1;
-    public Transform rightWallCheck2;
-    public Transform leftWallCheck1;
-    public Transform leftWallCheck2;
+    public Transform wallCheck1;
+    public Transform wallCheck2;
+    //public Transform leftWallCheck1;
+    //public Transform leftWallCheck2;
     public LayerMask groundLayer;
     public float checkDistance;
 
@@ -52,10 +52,10 @@ public class PlayerController : MonoBehaviour
     {
         Debug.DrawRay(groundCheck1.position, Vector2.down * 0.02f);
         Debug.DrawRay(groundCheck2.position, Vector2.down * 0.02f);
-        Debug.DrawRay(leftWallCheck1.position, Vector2.left * 0.02f);
-        Debug.DrawRay(leftWallCheck2.position, Vector2.left * 0.02f);
-        Debug.DrawRay(rightWallCheck1.position, Vector2.right * 0.02f);
-        Debug.DrawRay(rightWallCheck2.position, Vector2.right * 0.02f);
+        //Debug.DrawRay(leftWallCheck1.position, Vector2.left * 0.02f);
+        //Debug.DrawRay(leftWallCheck2.position, Vector2.left * 0.02f);
+        Debug.DrawRay(wallCheck1.position, Vector2.right * 0.02f);
+        Debug.DrawRay(wallCheck2.position, Vector2.right * 0.02f);
     }
 
     private void Awake()
@@ -76,6 +76,11 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space) && _hooked)
+        {
+            UnhookPlayer();
+        }
+
         if (Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0)
         {
             endJump = true;
@@ -105,7 +110,6 @@ public class PlayerController : MonoBehaviour
                     if(rb.velocity.x < moveSpeed)
                     {
                         rb.velocity = new Vector2(rb.velocity.x + (hookedAcceleration * Time.deltaTime), rb.velocity.y);
-                        //rb.AddForce(Vector2.right * hookedAcceleration);
                     }
                     else
                     {
@@ -139,7 +143,6 @@ public class PlayerController : MonoBehaviour
                     if (rb.velocity.x > -moveSpeed)
                     {
                         rb.velocity = new Vector2(rb.velocity.x - (hookedAcceleration * Time.deltaTime), rb.velocity.y);
-                        //rb.AddForce(Vector2.left * hookedAcceleration);
                     }
                     else
                     {
@@ -233,8 +236,8 @@ public class PlayerController : MonoBehaviour
 
     private void CheckWall()
     {
-        if (Physics2D.Raycast(rightWallCheck1.position, Vector2.right, checkDistance, groundLayer) ||
-            Physics2D.Raycast(rightWallCheck2.position, Vector2.right, checkDistance, groundLayer))
+        if (Physics2D.Raycast(wallCheck1.position, Vector2.right, checkDistance, groundLayer) ||
+            Physics2D.Raycast(wallCheck2.position, Vector2.right, checkDistance, groundLayer))
         {
             nextToRightWall = true;
         }
@@ -243,8 +246,8 @@ public class PlayerController : MonoBehaviour
             nextToRightWall = false;
         }
 
-        if (Physics2D.Raycast(leftWallCheck1.position, Vector2.left, checkDistance, groundLayer) ||
-            Physics2D.Raycast(leftWallCheck2.position, Vector2.left, checkDistance, groundLayer))
+        if (Physics2D.Raycast(wallCheck1.position, Vector2.left, checkDistance, groundLayer) ||
+            Physics2D.Raycast(wallCheck2.position, Vector2.left, checkDistance, groundLayer))
         {
             nextToLeftWall = true;
         }
@@ -311,10 +314,13 @@ public class PlayerController : MonoBehaviour
     public void Die()
     {
         ResetHair();
+        UnhookPlayer();
+        hair.DisableCollider();
         isDead = true;
         spriteRenderer.flipY = true;
         rb.velocity = Vector2.up * 5;
-        capsuleCollider.enabled = false;
+        //capsuleCollider.enabled = false;
+
         anim.SetTrigger("Death");
         HeadAnimator.SetTrigger("Death");
 
@@ -330,6 +336,8 @@ public class PlayerController : MonoBehaviour
     public void UnhookPlayer()
     {
         _hooked = false;
+        hair.Unhook();
+        ResetHair();
         //moveSpeed /= HookRatioSpeed;
     }
 

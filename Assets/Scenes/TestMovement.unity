@@ -205,6 +205,7 @@ MonoBehaviour:
   checkDistance: 0.1
   startingSpawn: {fileID: 0}
   CoyoteTime: 0.2
+  HeadAnimator: {fileID: 0}
 --- !u!212 &41886162
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -500,20 +501,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4039330363150455497, guid: f4428ebc6255e7645acf4f9e394d5fe8,
+    - target: {fileID: 4039330361656502233, guid: f4428ebc6255e7645acf4f9e394d5fe8,
         type: 3}
-      propertyPath: CoyoteTime
-      value: 0.15
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039330361668464146, guid: f4428ebc6255e7645acf4f9e394d5fe8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039330361681697214, guid: f4428ebc6255e7645acf4f9e394d5fe8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 4039330363150455497, guid: f4428ebc6255e7645acf4f9e394d5fe8,
         type: 3}
       propertyPath: startingSpawn
       value: 
       objectReference: {fileID: 682548249}
-    - target: {fileID: 4039330363150455503, guid: f4428ebc6255e7645acf4f9e394d5fe8,
+    - target: {fileID: 4039330363223884610, guid: f4428ebc6255e7645acf4f9e394d5fe8,
         type: 3}
-      propertyPath: m_GravityScale
-      value: 1.8
+      propertyPath: m_LocalPosition.x
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4039330363576164046, guid: f4428ebc6255e7645acf4f9e394d5fe8,
         type: 3}
@@ -2232,7 +2243,7 @@ MonoBehaviour:
   Iterations: 30
   GrowTime: 0.05
   StartHair: {fileID: 1167599123}
-  Player: {fileID: 41886158}
+  Player: {fileID: 0}
 --- !u!1 &1547079010
 GameObject:
   m_ObjectHideFlags: 0

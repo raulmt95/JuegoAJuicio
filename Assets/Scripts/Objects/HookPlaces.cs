@@ -29,14 +29,20 @@ public class HookPlaces : MonoBehaviour
             //_joint.distance = Vector2.Distance(transform.position, Player_rb.transform.position);
             HairRef = collision.GetComponent<Hair>();
             _joint.distance = HairRef.LockClosestPoint(Vector2.Distance(transform.position, Player_rb.transform.position));
-            HairRef.HookRef(transform.position);
+            HairRef.HookRef(this);
             
         }
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && _hooked && HairRef != null)
+        if (HairRef)
+            CheckDistanceHair();
+    }
+
+    public void Unhook()
+    {
+        if (HairRef != null)
         {
             _joint.enabled = false;
             _hooked = false;
@@ -44,9 +50,6 @@ public class HookPlaces : MonoBehaviour
             HairRef.ReleaseBlock();
             HairRef = null;
         }
-
-        if (HairRef)
-            CheckDistanceHair();
     }
 
     private void CheckDistanceHair()
