@@ -36,7 +36,7 @@ public class HookPlaces : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Q) && _hooked && HairRef != null)
+        if(Input.GetKeyDown(KeyCode.Space) && _hooked && HairRef != null)
         {
             _joint.enabled = false;
             _hooked = false;
