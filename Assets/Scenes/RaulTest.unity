@@ -716,6 +716,16 @@ PrefabInstance:
       propertyPath: currentSpawn
       value: 
       objectReference: {fileID: 1039958963}
+    - target: {fileID: 4039330363231673141, guid: f4428ebc6255e7645acf4f9e394d5fe8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.388
+      objectReference: {fileID: 0}
+    - target: {fileID: 4039330363231673141, guid: f4428ebc6255e7645acf4f9e394d5fe8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.042
+      objectReference: {fileID: 0}
     - target: {fileID: 4039330363576164046, guid: f4428ebc6255e7645acf4f9e394d5fe8,
         type: 3}
       propertyPath: m_LocalPosition.x

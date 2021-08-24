@@ -1,0 +1,1409 @@
+fileFormatVersion: 2
+guid: 1205be80e9a88ce419799624426c3a0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -499186260577810608
+    second: personajeCalidad_0
+  - first:
+      213: 256793671612839563
+    second: personajeCalidad_1
+  - first:
+      213: -6404622959501292430
+    second: personajeCalidad_2
+  - first:
+      213: 7742110372001506893
+    second: personajeCalidad_3
+  - first:
+      213: 8004154234451477578
+    second: personajeCalidad_4
+  - first:
+      213: -8170912702829859824
+    second: personajeCalidad_5
+  - first:
+      213: -957799096284415592
+    second: personajeCalidad_6
+  - first:
+      213: 2276327987115856220
+    second: personajeCalidad_7
+  - first:
+      213: -7301838665444957841
+    second: personajeCalidad_8
+  - first:
+      213: -7876085191593434446
+    second: personajeCalidad_9
+  - first:
+      213: -6903620857698094872
+    second: personajeCalidad_10
+  - first:
+      213: -3989384278603257944
+    second: personajeCalidad_11
+  - first:
+      213: 194963883937974201
+    second: personajeCalidad_12
+  - first:
+      213: 5500822816978248881
+    second: personajeCalidad_13
+  - first:
+      213: 2970461352385885871
+    second: personajeCalidad_14
+  - first:
+      213: -3446108399488408890
+    second: personajeCalidad_15
+  - first:
+      213: -3498175229860894809
+    second: personajeCalidad_16
+  - first:
+      213: 3358413896385541830
+    second: personajeCalidad_17
+  - first:
+      213: -1453018530009225907
+    second: personajeCalidad_18
+  - first:
+      213: -7964256879300231930
+    second: personajeCalidad_19
+  - first:
+      213: 4249262583867955478
+    second: personajeCalidad_20
+  - first:
+      213: 1688590497795486776
+    second: personajeCalidad_21
+  - first:
+      213: -7507425091280893425
+    second: personajeCalidad_22
+  - first:
+      213: -5356071804701445674
+    second: personajeCalidad_23
+  - first:
+      213: -6270989338585680847
+    second: personajeCalidad_24
+  - first:
+      213: -1266093336545947950
+    second: personajeCalidad_25
+  - first:
+      213: -8785537319798014154
+    second: personajeCalidad_26
+  - first:
+      213: -8225810758335566474
+    second: personajeCalidad_27
+  - first:
+      213: 1519243734858430032
+    second: personajeCalidad_28
+  - first:
+      213: 3203134118868282101
+    second: personajeCalidad_29
+  - first:
+      213: -811858126733221473
+    second: personajeCalidad_30
+  - first:
+      213: 6062784693533464959
+    second: personajeCalidad_31
+  - first:
+      213: 6765846470132101933
+    second: personajeCalidad_32
+  - first:
+      213: -675171825659132548
+    second: personajeCalidad_33
+  - first:
+      213: 8805796995054031911
+    second: personajeCalidad_34
+  - first:
+      213: -1910040905861812667
+    second: personajeCalidad_35
+  - first:
+      213: 4597998226966083982
+    second: personajeCalidad_36
+  - first:
+      213: 2435836083650523989
+    second: personajeCalidad_37
+  - first:
+      213: -472442800622371712
+    second: personajeCalidad_38
+  - first:
+      213: 275450034926547315
+    second: personajeCalidad_39
+  - first:
+      213: -2866471714514142298
+    second: personajeCalidad_40
+  - first:
+      213: 3592612551181401194
+    second: personajeCalidad_41
+  - first:
+      213: 3402771952083995228
+    second: personajeCalidad_42
+  - first:
+      213: -934707467216078107
+    second: personajeCalidad_43
+  - first:
+      213: 3982755409068237314
+    second: personajeCalidad_44
+  - first:
+      213: 9110755491851481519
+    second: personajeCalidad_45
+  - first:
+      213: 2576633686586724799
+    second: personajeCalidad_46
+  - first:
+      213: 1888993834215157448
+    second: personajeCalidad_47
+  - first:
+      213: 730615757380367528
+    second: personajeCalidad_48
+  - first:
+      213: 2585927830950279255
+    second: personajeCalidad_49
+  - first:
+      213: 311363302095902487
+    second: personajeCalidad_50
+  - first:
+      213: 32183546356758122
+    second: personajeCalidad_51
+  - first:
+      213: -1656684187660356945
+    second: personajeCalidad_52
+  - first:
+      213: 1421674627324442802
+    second: personajeCalidad_53
+  - first:
+      213: -5577199012201732145
+    second: personajeCalidad_54
+  - first:
+      213: -2145200721151607087
+    second: personajeCalidad_55
+  - first:
+      213: 3227668869593441962
+    second: personajeCalidad_56
+  - first:
+      213: -1231374148149084774
+    second: personajeCalidad_57
+  - first:
+      213: -1393103184763474758
+    second: personajeCalidad_58
+  - first:
+      213: 8374687279510744435
+    second: personajeCalidad_59
+  - first:
+      213: -8428213420769013696
+    second: personajeCalidad_60
+  - first:
+      213: 5360649755946423005
+    second: personajeCalidad_61
+  - first:
+      213: -2633739447801253955
+    second: personajeCalidad_62
+  - first:
+      213: -4587046533462263938
+    second: personajeCalidad_63
+  - first:
+      213: -565461458369724189
+    second: personajeCalidad_64
+  - first:
+      213: 5895898203589041270
+    second: personajeCalidad_65
+  - first:
+      213: 8745913767352719373
+    second: personajeCalidad_66
+  - first:
+      213: -7760736467447842883
+    second: personajeCalidad_67
+  - first:
+      213: 5089329953226399194
+    second: personajeCalidad_68
+  - first:
+      213: 2690922039102914790
+    second: personajeCalidad_69
+  - first:
+      213: -3194283635230727978
+    second: personajeCalidad_70
+  - first:
+      213: 3979994802434917254
+    second: personajeCalidad_71
+  - first:
+      213: -1535747326698687994
+    second: personajeCalidad_72
+  - first:
+      213: -5942822798651892426
+    second: personajeCalidad_73
+  - first:
+      213: -9006400094986879835
+    second: personajeCalidad_74
+  - first:
+      213: -1482086801720645067
+    second: personajeCalidad_75
+  - first:
+      213: -6190956353890870161
+    second: personajeCalidad_76
+  - first:
+      213: 8273651719276327998
+    second: personajeCalidad_77
+  - first:
+      213: -3243382516793899624
+    second: personajeCalidad_78
+  - first:
+      213: 4292354025274680322
+    second: personajeCalidad_79
+  - first:
+      213: -7442842372883732477
+    second: personajeCalidad_80
+  - first:
+      213: -5881779104801427514
+    second: personajeCalidad_81
+  - first:
+      213: 4104930940748927225
+    second: personajeCalidad_82
+  - first:
+      213: 2325122993730005098
+    second: personajeCalidad_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: personajeCalidad_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2213
+        width: 235
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0570185adb88219f0800000000000000
+      internalID: -499186260577810608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2157
+        width: 318
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b863d09db70509300800000000000000
+      internalID: 256793671612839563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_2
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 2229
+        width: 389
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c4d9af9553e17a0800000000000000
+      internalID: -6404622959501292430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_3
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 2242
+        width: 346
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4664072d50817b60800000000000000
+      internalID: 7742110372001506893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_4
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2222
+        width: 236
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a444bef4ed7741f60800000000000000
+      internalID: 8004154234451477578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_5
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 2175
+        width: 249
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c691920361b9e80800000000000000
+      internalID: -8170912702829859824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_6
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 2219
+        width: 356
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899f6cbebc635b2f0800000000000000
+      internalID: -957799096284415592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_7
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 2222
+        width: 349
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5112586e34279f10800000000000000
+      internalID: 2276327987115856220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1769
+        width: 309
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61e0faab68aaaa90800000000000000
+      internalID: -7301838665444957841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_9
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1766
+        width: 312
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2eb5e5f3682b290800000000000000
+      internalID: -7876085191593434446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_10
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1765
+        width: 309
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e07de828696130a0800000000000000
+      internalID: -6903620857698094872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_11
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1755
+        width: 299
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a72351a22cd2a8c0800000000000000
+      internalID: -3989384278603257944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_12
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1745
+        width: 299
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b747269e96a4b200800000000000000
+      internalID: 194963883937974201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_13
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1742
+        width: 303
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b42a5a1539d65c40800000000000000
+      internalID: 5500822816978248881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_14
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 1728
+        width: 309
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6bcff9cd2393920800000000000000
+      internalID: 2970461352385885871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1114
+        width: 247
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2e00f3ba6fc20d0800000000000000
+      internalID: -3446108399488408890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_16
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1134
+        width: 238
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7221e992cf37fc0800000000000000
+      internalID: -3498175229860894809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_17
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1154
+        width: 258
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6bbc625ab7b9e20800000000000000
+      internalID: 3358413896385541830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_18
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1188
+        width: 306
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d456dba6857d5dbe0800000000000000
+      internalID: -1453018530009225907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_19
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1165
+        width: 296
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d39519096497190800000000000000
+      internalID: -7964256879300231930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_20
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1141
+        width: 285
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619dec47ec968fa30800000000000000
+      internalID: 4249262583867955478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_21
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1120
+        width: 309
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83433387c141f6710800000000000000
+      internalID: 1688590497795486776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_22
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 398
+        width: 739
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a0950d7a440d790800000000000000
+      internalID: -7507425091280893425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_23
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 346
+        width: 664
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1f84142196ba5b0800000000000000
+      internalID: -5356071804701445674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_25
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 352
+        width: 745
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de80b681deed6ee0800000000000000
+      internalID: -1266093336545947950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 327
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e24ab7aeb2e75e0800000000000000
+      internalID: -1910040905861812667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_36
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 496
+        width: 322
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e897034b60f5fcf30800000000000000
+      internalID: 4597998226966083982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_37
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 506
+        width: 315
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55371113304ddc120800000000000000
+      internalID: 2435836083650523989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_38
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 502
+        width: 329
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c7634a6cb8179f0800000000000000
+      internalID: -472442800622371712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_39
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 449
+        width: 567
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3717a2de85892d300800000000000000
+      internalID: 275450034926547315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_45
+      rect:
+        serializedVersion: 2
+        x: 4972
+        y: 360
+        width: 550
+        height: 563
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa13f3759d7ef6e70800000000000000
+      internalID: 9110755491851481519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_49
+      rect:
+        serializedVersion: 2
+        x: 5683
+        y: 325
+        width: 554
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758769259af03e320800000000000000
+      internalID: 2585927830950279255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_51
+      rect:
+        serializedVersion: 2
+        x: 6476
+        y: 451
+        width: 401
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66f430d3c6527000800000000000000
+      internalID: 32183546356758122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_68
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 298
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add90d6c0aee0a640800000000000000
+      internalID: 5089329953226399194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_69
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 297
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0cff26653185520800000000000000
+      internalID: 2690922039102914790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_70
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 297
+        width: 103
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0aa3235ff9ba3d0800000000000000
+      internalID: -3194283635230727978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_71
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 301
+        width: 103
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683c8079f28cb3730800000000000000
+      internalID: 3979994802434917254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_72
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 297
+        width: 102
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6027e5f61fdefaae0800000000000000
+      internalID: -1535747326698687994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_73
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 297
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dd24ba62ad68da0800000000000000
+      internalID: -5942822798651892426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_75
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 160
+        width: 104
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a652108e19e6be0800000000000000
+      internalID: -1482086801720645067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_76
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 156
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c136a4ffd451aa0800000000000000
+      internalID: -6190956353890870161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_77
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 156
+        width: 103
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34f3ca276ae1d270800000000000000
+      internalID: 8273651719276327998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_78
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 150
+        width: 103
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89589cff8c03df2d0800000000000000
+      internalID: -3243382516793899624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_79
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 150
+        width: 101
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20427be7e31819b30800000000000000
+      internalID: 4292354025274680322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_80
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3082a05bb46b5b890800000000000000
+      internalID: -7442842372883732477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_81
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfeef23119bf5ea0800000000000000
+      internalID: -5881779104801427514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_82
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 103
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f099d611f4a7f830800000000000000
+      internalID: 4104930940748927225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_83
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 104
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68ae543b0f744020800000000000000
+      internalID: 2325122993730005098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajeCalidad_24
+      rect:
+        serializedVersion: 2
+        x: 6605
+        y: 0
+        width: 272
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134b653fb68f8f8a0800000000000000
+      internalID: -6270989338585680847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
