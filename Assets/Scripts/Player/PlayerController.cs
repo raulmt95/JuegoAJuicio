@@ -39,13 +39,11 @@ public class PlayerController : MonoBehaviour
     private bool nextToRightWall = false;
     private bool nextToLeftWall = false;
     private bool endJump = false;
-    private bool jumping = false;
     private bool isSpawning = false;
     private bool isDead = false;
     private float currentGrowth = 0;
     private float growthFactor = 1;
     private float _timerCoyote;
-    private bool hasWon = false;
     private bool _hooked;
     private Hair hair;
 
@@ -87,7 +85,7 @@ public class PlayerController : MonoBehaviour
     {
         CheckGround();
 
-        if (!isDead && !isSpawning && !hasWon)
+        if (!isDead && !isSpawning)
         {
             CheckWall();
             CheckMove();
@@ -103,10 +101,10 @@ public class PlayerController : MonoBehaviour
             {
                 if (_hooked)
                 {
-                    Debug.Log(rb.velocity.x);
                     if(rb.velocity.x < moveSpeed)
                     {
                         rb.velocity = new Vector2(rb.velocity.x + (hookedAcceleration * Time.deltaTime), rb.velocity.y);
+                        //rb.AddForce(Vector2.right * hookedAcceleration);
                     }
                     else
                     {
@@ -137,10 +135,10 @@ public class PlayerController : MonoBehaviour
             {
                 if (_hooked)
                 {
-                    Debug.Log(rb.velocity.x);
                     if (rb.velocity.x > -moveSpeed)
                     {
                         rb.velocity = new Vector2(rb.velocity.x - (hookedAcceleration * Time.deltaTime), rb.velocity.y);
+                        //rb.AddForce(Vector2.left * hookedAcceleration);
                     }
                     else
                     {
@@ -187,9 +185,6 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
             anim.SetBool("IsGrounded", false);
             anim.SetTrigger("Jump");
-
-            jumping = true;
-            Invoke(nameof(EnableClimbAfterJump), 0.3f);
         }
 
         if (endJump)
@@ -320,21 +315,16 @@ public class PlayerController : MonoBehaviour
         Invoke(nameof(Spawn), 1.5f);
     }
 
-    private void EnableClimbAfterJump()
-    {
-        jumping = false;
-    }
-
     public void HookPlayer()
     {
         _hooked = true;
-        moveSpeed *= HookRatioSpeed;
+        //moveSpeed *= HookRatioSpeed;
     }
 
     public void UnhookPlayer()
     {
         _hooked = false;
-        moveSpeed /= HookRatioSpeed;
+        //moveSpeed /= HookRatioSpeed;
     }
 
     void ResetHair()

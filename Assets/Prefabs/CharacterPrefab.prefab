@@ -741,8 +741,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
+  hookedAcceleration: 10
   jumpImpulse: 7
-  gravityModifier: 0
   groundCheck1: {fileID: 4039330361986370446}
   groundCheck2: {fileID: 4039330363041056059}
   rightWallCheck1: {fileID: 4039330361668464146}
@@ -753,7 +753,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   checkDistance: 0.1
-  currentSpawn: {fileID: 0}
+  startingSpawn: {fileID: 0}
   CoyoteTime: 0.35
 --- !u!95 &4039330363150455500
 Animator:
