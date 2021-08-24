@@ -26,9 +26,10 @@ public class PlayerController : MonoBehaviour
     [Header("Miscelaneous")]
     public Transform startingSpawn;
     public float CoyoteTime = 0.35f;
-    private Transform currentSpawn;
+    public Animator HeadAnimator;
 
-    private static float HookRatioSpeed = 0.45f;
+    private Transform currentSpawn;
+    //private static float HookRatioSpeed = 0.45f;
 
     private bool facingRight = true;
     private SpriteRenderer spriteRenderer;
@@ -185,6 +186,9 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
             anim.SetBool("IsGrounded", false);
             anim.SetTrigger("Jump");
+
+            HeadAnimator.ResetTrigger("Grounded");
+            HeadAnimator.SetTrigger("Jump");
         }
 
         if (endJump)
@@ -208,6 +212,7 @@ public class PlayerController : MonoBehaviour
             if(rb.velocity.y < 0)
             {
                 anim.SetBool("IsGrounded", true);
+                HeadAnimator.SetTrigger("Grounded");
 
                 _timerCoyote = CoyoteTime;
                 //rb.velocity = new Vector2(rb.velocity.x, 0);
@@ -311,6 +316,7 @@ public class PlayerController : MonoBehaviour
         rb.velocity = Vector2.up * 5;
         capsuleCollider.enabled = false;
         anim.SetTrigger("Death");
+        HeadAnimator.SetTrigger("Death");
 
         Invoke(nameof(Spawn), 1.5f);
     }

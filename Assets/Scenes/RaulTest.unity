@@ -188,7 +188,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Follow: {fileID: 419193830}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 4
+    OrthographicSize: 3
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -704,6 +704,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!1 &1959455064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4039330363231673142, guid: f4428ebc6255e7645acf4f9e394d5fe8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4039330363568566571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1959455067
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959455064}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2dee17b5f051bea46bcf20a71d7d50f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &4039330363568566571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -713,24 +738,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4039330363150455497, guid: f4428ebc6255e7645acf4f9e394d5fe8,
         type: 3}
-      propertyPath: currentSpawn
+      propertyPath: HeadAnimator
       value: 
-      objectReference: {fileID: 1039958963}
-    - target: {fileID: 4039330363150455497, guid: f4428ebc6255e7645acf4f9e394d5fe8,
-        type: 3}
-      propertyPath: hookedAcceleration
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4039330363231673141, guid: f4428ebc6255e7645acf4f9e394d5fe8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.388
-      objectReference: {fileID: 0}
-    - target: {fileID: 4039330363231673141, guid: f4428ebc6255e7645acf4f9e394d5fe8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.042
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1959455067}
     - target: {fileID: 4039330363576164046, guid: f4428ebc6255e7645acf4f9e394d5fe8,
         type: 3}
       propertyPath: m_LocalPosition.x
