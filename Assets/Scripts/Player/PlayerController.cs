@@ -9,8 +9,9 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Paramenters")]
     public float moveSpeed = 7;
+    public float hookedAcceleration;
     public float jumpImpulse = 7;
-    public float gravityModifier;
+    //public float gravityModifier;
 
     [Header("Raycasts")]
     public Transform groundCheck1;
@@ -95,8 +96,23 @@ public class PlayerController : MonoBehaviour
         {
             if (!nextToRightWall)
             {
-                rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-                anim.SetBool("IsRunning", true);
+                if (_hooked)
+                {
+                    Debug.Log(rb.velocity.x);
+                    if(rb.velocity.x < moveSpeed)
+                    {
+                        rb.velocity = new Vector2(rb.velocity.x + (hookedAcceleration * Time.deltaTime), rb.velocity.y);
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+                    }
+                }
+                else
+                {
+                    rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+                    anim.SetBool("IsRunning", true);
+                }
             }
             else
             {
@@ -114,8 +130,23 @@ public class PlayerController : MonoBehaviour
         {
             if (!nextToLeftWall)
             {
-                rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
-                anim.SetBool("IsRunning", true);
+                if (_hooked)
+                {
+                    Debug.Log(rb.velocity.x);
+                    if (rb.velocity.x > -moveSpeed)
+                    {
+                        rb.velocity = new Vector2(rb.velocity.x - (hookedAcceleration * Time.deltaTime), rb.velocity.y);
+                    }
+                    else
+                    {
+                        rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+                    }
+                }
+                else
+                {
+                    rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+                    anim.SetBool("IsRunning", true);
+                }
             }
             else
             {

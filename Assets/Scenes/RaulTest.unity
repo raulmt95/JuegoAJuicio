@@ -716,6 +716,11 @@ PrefabInstance:
       propertyPath: currentSpawn
       value: 
       objectReference: {fileID: 1039958963}
+    - target: {fileID: 4039330363150455497, guid: f4428ebc6255e7645acf4f9e394d5fe8,
+        type: 3}
+      propertyPath: hookedAcceleration
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4039330363231673141, guid: f4428ebc6255e7645acf4f9e394d5fe8,
         type: 3}
       propertyPath: m_LocalPosition.y
