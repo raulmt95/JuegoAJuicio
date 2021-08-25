@@ -634,6 +634,9 @@ MonoBehaviour:
   StartHair: {fileID: 4039330362673314334}
   Player: {fileID: 4039330363150455497}
   GrowHairButton: 324
+  PeloPS: {fileID: 7936637902598873315, guid: 4d00e018d758f6142a8dae1571e1cf32, type: 3}
+  MuchosPelosPS: {fileID: 7936637902598873315, guid: 7c2908cf43733df4ab619a66ebf46b7f,
+    type: 3}
   _trapped: 0
 --- !u!68 &4039330362148307886
 EdgeCollider2D:
@@ -742,7 +745,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4039330363150455498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.55, y: 0.22, z: 0}
+  m_LocalPosition: {x: 35.87, y: -1.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4039330363231673141}
@@ -871,6 +874,10 @@ MonoBehaviour:
   startingSpawn: {fileID: 0}
   CoyoteTime: 0.15
   HeadAnimator: {fileID: 1959455067}
+  GroundPS: {fileID: 8723262330972324453, guid: 94b9efe5b7004ad4fa7e737765a9a33a,
+    type: 3}
+  GroundSmallPS: {fileID: 8723262330972324453, guid: 5692184b4a9500346a08ea9e3587997e,
+    type: 3}
   Sombra: {fileID: 1767223438}
   MaxDistanceShadow: 5
   ShadowScaleMax: 0.45

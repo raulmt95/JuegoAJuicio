@@ -22,6 +22,12 @@ public class Hair : MonoBehaviour
     [Header("Button")]
     public KeyCode GrowHairButton = KeyCode.Mouse1;
 
+    [Header("VFX")]
+    public GameObject PeloPS;
+    public GameObject MuchosPelosPS;
+
+    [Header("Others")]
+
     private float _Grownth = 0.001f;
     private float _timer;
 
@@ -264,6 +270,7 @@ public class Hair : MonoBehaviour
     {
         HookPos = hook.transform.position;
         _currentHook = hook;
+        Instantiate(PeloPS, HookPos, Quaternion.identity);
     }
 
     public void ReleaseBlock()
@@ -285,17 +292,20 @@ public class Hair : MonoBehaviour
     public void CutHair(float distance)
     {
         float newLength = 0.1f;
+        int index = 0;
         for (int i = 1; i < segmentLength; i++)
         {
             if (Vector2.Distance(hairSegments[i].posNow, Player.transform.position) < distance)
             {
                 newLength = (segmentLength - i) * hairSegLen;
+                index = i;
                 break;
             }
         }
         float newSegmentLenght = newLength / segmentLength;
         hairSegLen = newSegmentLenght;
 
+        Instantiate(MuchosPelosPS, hairSegments[index].posNow, Quaternion.identity);
         Player.GetComponent<PlayerController>().UnhookPlayer();
         ReleaseHair();
     }

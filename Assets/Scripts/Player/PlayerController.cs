@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
     public Transform startingSpawn;
     public float CoyoteTime = 0.35f;
     public Animator HeadAnimator;
+    public GameObject GroundPS;
+    public GameObject GroundSmallPS;
 
     [Header("Shadow")]
     public GameObject Sombra;
@@ -380,5 +382,18 @@ public class PlayerController : MonoBehaviour
     void ResetHair()
     {
         hair.TrapHair(false);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.relativeVelocity);
+        if (collision.gameObject.layer == 8)
+        {
+            if (collision.relativeVelocity.y >= 7)
+                Instantiate(GroundPS, collision.contacts[0].point, Quaternion.identity);
+            else
+                Instantiate(GroundSmallPS, collision.contacts[0].point, Quaternion.identity);
+
+        }
     }
 }
