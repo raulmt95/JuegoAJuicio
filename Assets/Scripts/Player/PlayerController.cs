@@ -113,7 +113,7 @@ public class PlayerController : MonoBehaviour
         {
             if (!nextToRightWall)
             {
-                if (_hooked)
+                if (_hooked && !isGrounded)
                 {
                     if(rb.velocity.x < moveSpeed)
                     {
@@ -146,7 +146,7 @@ public class PlayerController : MonoBehaviour
         {
             if (!nextToLeftWall)
             {
-                if (_hooked)
+                if (_hooked && !isGrounded)
                 {
                     if (rb.velocity.x > -moveSpeed)
                     {
@@ -183,7 +183,7 @@ public class PlayerController : MonoBehaviour
 
     private void StopHorizontalMove()
     {
-        if(!_hooked)
+        if(!_hooked || isGrounded)
             rb.velocity = new Vector2(0, rb.velocity.y);
 
         anim.SetBool("IsRunning", false);
@@ -237,8 +237,15 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("IsGrounded", false);
 
             _timerCoyote -= Time.deltaTime;
+
             if(_timerCoyote <= 0)
+            {
+                if (isGrounded)
+                {
+                    anim.SetTrigger("Jump");
+                }
                 isGrounded = false;
+            }
         }
     }
     private void CheckShadow()
