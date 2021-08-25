@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [Header("Raycasts")]
     public Transform groundCheck1;
     public Transform groundCheck2;
+    public Transform groundCheckM;
     public Transform wallCheck1;
     public Transform wallCheck2;
     //public Transform leftWallCheck1;
@@ -27,6 +28,11 @@ public class PlayerController : MonoBehaviour
     public Transform startingSpawn;
     public float CoyoteTime = 0.35f;
     public Animator HeadAnimator;
+
+    [Header("Shadow")]
+    public GameObject Sombra;
+    public float MaxDistanceShadow = 5f;
+    public float ShadowScaleMax = 0.45f;
 
     private Transform currentSpawn;
     //private static float HookRatioSpeed = 0.45f;
@@ -96,8 +102,10 @@ public class PlayerController : MonoBehaviour
             CheckWall();
             CheckMove();
             CheckJump();
+            CheckShadow();
         }
     }
+
 
     private void CheckMove()
     {
@@ -232,6 +240,21 @@ public class PlayerController : MonoBehaviour
             if(_timerCoyote <= 0)
                 isGrounded = false;
         }
+    }
+    private void CheckShadow()
+    {
+        RaycastHit2D hit;
+        hit = Physics2D.Raycast(groundCheckM.position, Vector2.down, MaxDistanceShadow, groundLayer);
+        if (hit)
+        {
+            Sombra.SetActive(true);
+            Sombra.transform.position = hit.point;
+            Sombra.transform.localScale = Mathf.Lerp(0.05f, ShadowScaleMax, 1 - hit.distance*2f / MaxDistanceShadow) * Vector3.one;
+        }
+        else
+            Sombra.SetActive(false);
+       
+
     }
 
     private void CheckWall()
