@@ -333,6 +333,14 @@ public class Hair : MonoBehaviour
         Unhook();
         TrapHair(false);
     }
+
+    public bool isHooked()
+    {
+        if (_blockPointIndex == 0 && _currentHook == null)
+            return false;
+        else
+            return true;
+    }
     public struct RopeSegment
     {
         public Vector2 posNow;

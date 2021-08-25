@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hair_Solid2
-  m_Shader: {fileID: -6465566751694194690, guid: 472d04f4eb419f34e907df881740b06a,
+  m_Name: PeloSuelto_1
+  m_Shader: {fileID: -6465566751694194690, guid: 39a8335e20c11564ab8fa5eae3403244,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,13 +20,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_1B022856:
-        m_Texture: {fileID: 2800000, guid: de6b3ff610c05ea4f915351995198ee9, type: 3}
+    - Texture2D_AD44E364:
+        m_Texture: {fileID: 2800000, guid: 2e28cbbf2b2f59949b3aec54713d6722, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_30EAD351: 0.88
-    - Vector1_67DF7526: 0.15
+    - Vector1_45BBBD61: 0.255
     m_Colors:
-    - Color_2313244F: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - Color_6909B16A: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.13207549, g: 0, b: 0, a: 1}

@@ -24,12 +24,14 @@ public class HookPlaces : MonoBehaviour
     {
         if(collision.CompareTag("Hair") && !_hooked)
         {
-            _hooked = true;
-            _joint.enabled = true;
-            //_joint.distance = Vector2.Distance(transform.position, Player_rb.transform.position);
             HairRef = collision.GetComponent<Hair>();
-            _joint.distance = HairRef.LockClosestPoint(Vector2.Distance(transform.position, Player_rb.transform.position));
-            HairRef.HookRef(this);
+            if (!HairRef.isHooked())
+            {
+                _hooked = true;
+                _joint.enabled = true;
+                _joint.distance = HairRef.LockClosestPoint(Vector2.Distance(transform.position, Player_rb.transform.position));
+                HairRef.HookRef(this);
+            }
             
         }
     }
