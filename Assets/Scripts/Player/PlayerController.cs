@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     public Animator HeadAnimator;
     public GameObject GroundPS;
     public GameObject GroundSmallPS;
+    public Hair hair;
 
     [Header("Shadow")]
     public GameObject Sombra;
@@ -54,7 +55,6 @@ public class PlayerController : MonoBehaviour
     private float growthFactor = 1;
     private float _timerCoyote;
     private bool _hooked;
-    private Hair hair;
 
     private void OnDrawGizmos()
     {
@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
-        hair = transform.parent.GetComponentInChildren<Hair>();
+        //hair = transform.parent.GetComponentInChildren<Hair>();
     }
 
     private void Start()
@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && _hooked && !hair._trapped)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && _hooked && !hair._trapped)
         {
             UnhookPlayer();
         }
@@ -119,7 +119,7 @@ public class PlayerController : MonoBehaviour
                 {
                     if(rb.velocity.x < moveSpeed)
                     {
-                        rb.velocity = new Vector2(rb.velocity.x + (hookedAcceleration * Time.deltaTime), rb.velocity.y);
+                        rb.velocity = new Vector2(rb.velocity.x + (hookedAcceleration * 15 * hair.hairSegLen * Time.deltaTime), rb.velocity.y);
                     }
                     else
                     {
@@ -152,7 +152,7 @@ public class PlayerController : MonoBehaviour
                 {
                     if (rb.velocity.x > -moveSpeed)
                     {
-                        rb.velocity = new Vector2(rb.velocity.x - (hookedAcceleration * Time.deltaTime), rb.velocity.y);
+                        rb.velocity = new Vector2(rb.velocity.x - (hookedAcceleration * 15 * hair.hairSegLen * Time.deltaTime), rb.velocity.y);
                     }
                     else
                     {
@@ -299,10 +299,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.name);
+        Debug.Log(other.tag);
 
         if (other.CompareTag("Spikes"))
         {
+            Debug.Log("HOLA");
             Die();
         }
 
@@ -323,7 +324,7 @@ public class PlayerController : MonoBehaviour
         HeadAnimator.SetTrigger("Spawn");
 
         //transform.parent.position = currentSpawn.position;
-        transform.position = currentSpawn.position;
+        transform.parent.position = currentSpawn.position;
         rb.velocity = Vector2.zero;
         spriteRenderer.flipY = false;
 
@@ -353,18 +354,21 @@ public class PlayerController : MonoBehaviour
 
     public void Die()
     {
-        ResetHair();
-        UnhookPlayer();
-        hair.DisableCollider();
-        isDead = true;
-        spriteRenderer.flipY = true;
-        rb.velocity = Vector2.up * 5;
-        //capsuleCollider.enabled = false;
+        if (!isDead)
+        {
+            ResetHair();
+            UnhookPlayer();
+            hair.DisableCollider();
+            isDead = true;
+            spriteRenderer.flipY = true;
+            rb.velocity = Vector2.up * 5;
+            //capsuleCollider.enabled = false;
 
-        anim.SetTrigger("Death");
-        HeadAnimator.SetTrigger("Death");
+            anim.SetTrigger("Death");
+            HeadAnimator.SetTrigger("Death");
 
-        Invoke(nameof(Spawn), 1.5f);
+            Invoke(nameof(Spawn), 1.5f);
+        }
     }
 
     public void HookPlayer()

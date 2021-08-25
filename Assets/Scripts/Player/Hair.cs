@@ -333,9 +333,12 @@ public class Hair : MonoBehaviour
 
     public void Unhook()
     {
-        _currentHook.Unhook();
-        _currentHook = null;
-        ReleaseBlock();
+        if (_currentHook != null)
+        {
+            _currentHook.Unhook();
+            _currentHook = null;
+            ReleaseBlock();
+        }
     }
 
     private void ReleaseHair()
