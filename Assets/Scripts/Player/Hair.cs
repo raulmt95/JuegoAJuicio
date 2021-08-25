@@ -12,10 +12,15 @@ public class Hair : MonoBehaviour
     public float TimeDrop = 0.1f;
     public int Iterations = 30;
     public float GrowTime = 0.1f;
+    [Range(1, 4)]
+    public float DeathSpeed = 2f;
 
     [Header("References")]
     public Transform StartHair;
     public PlayerController Player;
+
+    [Header("Button")]
+    public KeyCode GrowHairButton = KeyCode.Mouse1;
 
     private float _Grownth = 0.001f;
     private float _timer;
@@ -28,7 +33,7 @@ public class Hair : MonoBehaviour
 
     private EdgeCollider2D _edgeCol;
 
-    private bool _trapped;
+    public bool _trapped;
     private HookPlaces _currentHook;
 
     // Use this for initialization
@@ -52,7 +57,7 @@ public class Hair : MonoBehaviour
     {
         DrawHair();
 
-        if(Input.GetKey(KeyCode.R) && !_trapped)
+        if(Input.GetKey(GrowHairButton) && !_trapped)
             GrowHair();
 
         if (_trapped)
@@ -77,7 +82,7 @@ public class Hair : MonoBehaviour
         if (_timer > GrowTime)
         {
             _timer = 0f;
-            hairSegLen -= _Grownth;
+            hairSegLen -= DeathSpeed * _Grownth;
         }
     }
     private void FixedUpdate()
@@ -290,6 +295,9 @@ public class Hair : MonoBehaviour
         }
         float newSegmentLenght = newLength / segmentLength;
         hairSegLen = newSegmentLenght;
+
+        Player.GetComponent<PlayerController>().UnhookPlayer();
+        ReleaseHair();
     }
 
     public void TrapHair(bool state)
@@ -300,6 +308,12 @@ public class Hair : MonoBehaviour
     void Die()
     {
         Player.Die();
+        ReleaseHair();
+    }
+
+    public void EnableCollider()
+    {
+        _edgeCol.enabled = true;
     }
 
     public void DisableCollider()
@@ -314,6 +328,11 @@ public class Hair : MonoBehaviour
         ReleaseBlock();
     }
 
+    private void ReleaseHair()
+    {
+        Unhook();
+        TrapHair(false);
+    }
     public struct RopeSegment
     {
         public Vector2 posNow;

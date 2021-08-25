@@ -518,8 +518,11 @@ MonoBehaviour:
   TimeDrop: 0.02
   Iterations: 40
   GrowTime: 0.05
+  DeathSpeed: 2
   StartHair: {fileID: 4039330362673314334}
   Player: {fileID: 4039330363150455497}
+  GrowHairButton: 324
+  _trapped: 0
 --- !u!68 &4039330362148307886
 EdgeCollider2D:
   m_ObjectHideFlags: 0

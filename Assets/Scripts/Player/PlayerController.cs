@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && _hooked)
+        if (Input.GetKeyDown(KeyCode.Space) && _hooked && !hair._trapped)
         {
             UnhookPlayer();
         }
@@ -286,11 +286,19 @@ public class PlayerController : MonoBehaviour
     private void Spawn()
     {
         capsuleCollider.enabled = true;
-        transform.parent.position = currentSpawn.position;
+
+        anim.SetTrigger("Spawn");
+        HeadAnimator.SetTrigger("Spawn");
+
+        //transform.parent.position = currentSpawn.position;
+        transform.position = currentSpawn.position;
         rb.velocity = Vector2.zero;
         spriteRenderer.flipY = false;
+
         isSpawning = true;
         isDead = false;
+
+        hair.EnableCollider();
 
         StartCoroutine(nameof(SpawnAnimation));
     }
@@ -330,7 +338,6 @@ public class PlayerController : MonoBehaviour
     public void HookPlayer()
     {
         _hooked = true;
-        //moveSpeed *= HookRatioSpeed;
     }
 
     public void UnhookPlayer()
@@ -338,7 +345,6 @@ public class PlayerController : MonoBehaviour
         _hooked = false;
         hair.Unhook();
         ResetHair();
-        //moveSpeed /= HookRatioSpeed;
     }
 
     void ResetHair()
