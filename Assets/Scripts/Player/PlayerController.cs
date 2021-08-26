@@ -310,7 +310,7 @@ public class PlayerController : MonoBehaviour
 
         if (other.CompareTag("Checkpoint"))
         {
-            if (currentSpawn != other.transform)
+            if (currentSpawn != other.transform && !isDead)
             {
                 currentSpawn = other.transform;
             }
@@ -325,14 +325,13 @@ public class PlayerController : MonoBehaviour
         HeadAnimator.SetTrigger("Spawn");
 
         //transform.parent.position = currentSpawn.position;
-        transform.parent.position = currentSpawn.position;
+        transform.position = currentSpawn.position;
         rb.velocity = Vector2.zero;
         spriteRenderer.flipY = false;
 
+        facingRight = true;
         isSpawning = true;
         isDead = false;
-
-        hair.EnableCollider();
 
         StartCoroutine(nameof(SpawnAnimation));
     }
@@ -351,6 +350,7 @@ public class PlayerController : MonoBehaviour
 
         transform.localScale = Vector3.one;
         isSpawning = false;
+        hair.EnableCollider();
     }
 
     public void Die()
@@ -398,7 +398,6 @@ public class PlayerController : MonoBehaviour
                 Instantiate(GroundPS, collision.contacts[0].point, Quaternion.identity);
             else
                 Instantiate(GroundSmallPS, collision.contacts[0].point, Quaternion.identity);
-
         }
     }
 }
