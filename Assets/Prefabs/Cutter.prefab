@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2774938702482910428}
   - component: {fileID: 2774938702482910429}
   - component: {fileID: 2774938702482910426}
+  - component: {fileID: 1365984134116642220}
   m_Layer: 0
   m_Name: Cutter
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2774938702482910427}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,8 +74,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0, g: 1, b: 0.0791831, a: 1}
+  m_Sprite: {fileID: -3456915116270087519, guid: e841789edd2a54742abb8a6472891711,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -97,9 +99,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.15344954, y: 0}
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 4.291534
 --- !u!50 &2774938702482910429
 Rigidbody2D:
   serializedVersion: 4
@@ -135,3 +137,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player_rb: {fileID: 0}
   Cooldown: 1
+--- !u!95 &1365984134116642220
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774938702482910427}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1b0dfb4805fd60d4caf2e48a81b20516, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
