@@ -31,7 +31,7 @@ public class MenuManager : MonoBehaviour
         panelToHide.transform.DOMoveY(HidePanelPos.position.y, MoveTime).SetEase(Ease.OutQuad);
         shownPanel = panelToShow;
         hiddenPanel = panelToHide;
-        Invoke(nameof(SetPanelsPosition), MoveTime + 0.5f);
+        Invoke(nameof(SetPanelsPosition), MoveTime + 0.05f);
     }
 
     private void SetPanelsPosition()
@@ -44,6 +44,7 @@ public class MenuManager : MonoBehaviour
     public void OnPlayButtonPressed(int index)
     {
         SceneManager.LoadScene(index);
+        AudioManager.Instance.GameTransition();
     }
 
     public void OnCreditsButtonPressed()
