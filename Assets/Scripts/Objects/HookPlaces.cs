@@ -6,6 +6,7 @@ using UnityEngine;
 public class HookPlaces : MonoBehaviour
 {
     public Rigidbody2D Player_rb;
+    public bool Trap = false;
 
     private DistanceJoint2D _joint;
 
@@ -27,13 +28,23 @@ public class HookPlaces : MonoBehaviour
             HairRef = collision.GetComponent<Hair>();
             if (!HairRef.isHooked())
             {
-                _hooked = true;
-                _joint.enabled = true;
-                _joint.distance = HairRef.LockClosestPoint(Vector2.Distance(transform.position, Player_rb.transform.position));
-                HairRef.HookRef(this);
+                Hook();
+            }
+            else if(Trap)
+            {
+                HairRef.Unhook();
+                Hook();
             }
             
         }
+    }
+
+    private void Hook()
+    {
+        _hooked = true;
+        _joint.enabled = true;
+        _joint.distance = HairRef.LockClosestPoint(Vector2.Distance(transform.position, Player_rb.transform.position));
+        HairRef.HookRef(this);
     }
 
     private void Update()
