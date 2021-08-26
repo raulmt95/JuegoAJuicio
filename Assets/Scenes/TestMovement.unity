@@ -195,6 +195,7 @@ MonoBehaviour:
   jumpImpulse: 7
   groundCheck1: {fileID: 1951783108}
   groundCheck2: {fileID: 542909346}
+  groundCheckM: {fileID: 0}
   wallCheck1: {fileID: 0}
   wallCheck2: {fileID: 0}
   groundLayer:
@@ -204,6 +205,12 @@ MonoBehaviour:
   startingSpawn: {fileID: 0}
   CoyoteTime: 0.2
   HeadAnimator: {fileID: 0}
+  GroundPS: {fileID: 0}
+  GroundSmallPS: {fileID: 0}
+  hair: {fileID: 0}
+  Sombra: {fileID: 0}
+  MaxDistanceShadow: 5
+  ShadowScaleMax: 0.45
 --- !u!212 &41886162
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -624,6 +631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player_rb: {fileID: 121184576}
+  Trap: 0
 --- !u!50 &335492582
 Rigidbody2D:
   serializedVersion: 4
@@ -909,7 +917,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -10
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1559,6 +1567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player_rb: {fileID: 121184576}
+  Trap: 0
 --- !u!50 &1137380151
 Rigidbody2D:
   serializedVersion: 4
@@ -2229,6 +2238,8 @@ MonoBehaviour:
   StartHair: {fileID: 1167599123}
   Player: {fileID: 0}
   GrowHairButton: 324
+  PeloPS: {fileID: 0}
+  MuchosPelosPS: {fileID: 0}
   _trapped: 0
 --- !u!1 &1547079010
 GameObject:
@@ -2687,6 +2698,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfca6b62fe60871439411c6cf014d81b, type: 3}
+--- !u!1001 &6256333844977702981
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.22048604
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358215, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256333846649358330, guid: 4578888fe9e767f438301fe373c9b330,
+        type: 3}
+      propertyPath: m_Name
+      value: SmokePS
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4578888fe9e767f438301fe373c9b330, type: 3}
 --- !u!1001 &8566484427553608236
 PrefabInstance:
   m_ObjectHideFlags: 0

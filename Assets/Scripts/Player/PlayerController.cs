@@ -391,7 +391,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.relativeVelocity);
         if (collision.gameObject.layer == 8)
         {
             if (collision.relativeVelocity.y >= 7)
