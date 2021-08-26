@@ -117,14 +117,15 @@ public class PlayerController : MonoBehaviour
             {
                 if (_hooked && !isGrounded)
                 {
-                    if(rb.velocity.x < moveSpeed)
-                    {
-                        rb.velocity = new Vector2(rb.velocity.x + (hookedAcceleration * 15 * hair.hairSegLen * Time.deltaTime), rb.velocity.y);
-                    }
-                    else
-                    {
-                        rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-                    }
+                    rb.velocity = new Vector2(rb.velocity.x + (hookedAcceleration * Time.deltaTime), rb.velocity.y);
+                    //if(rb.velocity.x < moveSpeed)
+                    //{
+                    //    rb.velocity = new Vector2(rb.velocity.x + (hookedAcceleration * hair.hairSegLen * Time.deltaTime), rb.velocity.y);
+                    //}
+                    //else
+                    //{
+                    //    rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+                    //}
                 }
                 else
                 {
@@ -150,14 +151,15 @@ public class PlayerController : MonoBehaviour
             {
                 if (_hooked && !isGrounded)
                 {
-                    if (rb.velocity.x > -moveSpeed)
-                    {
-                        rb.velocity = new Vector2(rb.velocity.x - (hookedAcceleration * 15 * hair.hairSegLen * Time.deltaTime), rb.velocity.y);
-                    }
-                    else
-                    {
-                        rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
-                    }
+                    rb.velocity = new Vector2(rb.velocity.x - (hookedAcceleration * Time.deltaTime), rb.velocity.y);
+                    //if (rb.velocity.x > -moveSpeed)
+                    //{
+                    //    rb.velocity = new Vector2(rb.velocity.x - (hookedAcceleration * hair.hairSegLen * Time.deltaTime), rb.velocity.y);
+                    //}
+                    //else
+                    //{
+                    //    rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+                    //}
                 }
                 else
                 {
@@ -204,7 +206,7 @@ public class PlayerController : MonoBehaviour
             HeadAnimator.SetTrigger("Jump");
         }
 
-        if (endJump)
+        if (endJump || _hooked)
         {
             if (rb.velocity.y > 2)
             {
@@ -303,7 +305,6 @@ public class PlayerController : MonoBehaviour
 
         if (other.CompareTag("Spikes"))
         {
-            Debug.Log("HOLA");
             Die();
         }
 
