@@ -700,6 +700,7 @@ MonoBehaviour:
     type: 3}
   GroundSmallPS: {fileID: 8723262330972324453, guid: 5692184b4a9500346a08ea9e3587997e,
     type: 3}
+  hair: {fileID: 0}
   Sombra: {fileID: 1767223438}
   MaxDistanceShadow: 5
   ShadowScaleMax: 0.45
