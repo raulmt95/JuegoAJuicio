@@ -238,6 +238,11 @@ public class PlayerController : MonoBehaviour
         else
         {
             //rb.AddForce(Vector2.down * gravityModifier);
+
+            if (rb.velocity.y < -15)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, -15);
+            }
             anim.SetBool("IsGrounded", false);
 
             _timerCoyote -= Time.deltaTime;
@@ -319,6 +324,9 @@ public class PlayerController : MonoBehaviour
 
     private void Spawn()
     {
+        ResetHair();
+        UnhookPlayer();
+
         capsuleCollider.enabled = true;
 
         anim.SetTrigger("Spawn");

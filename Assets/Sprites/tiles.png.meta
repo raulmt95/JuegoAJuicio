@@ -456,10 +456,10 @@ TextureImporter:
       name: tiles_14
       rect:
         serializedVersion: 2
-        x: 2104
-        y: 133
-        width: 545
-        height: 770
+        x: 2107
+        y: 137
+        width: 538
+        height: 764
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
