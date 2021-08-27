@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 647fa07800ad8474fa8a4e011dfdbc06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3217907418674253092
+    second: Menu_principal_desarmada_0
+  - first:
+      213: 552999717959727985
+    second: Menu_principal_desarmada_1
+  - first:
+      213: 4106216365673187016
+    second: Menu_principal_desarmada_2
+  - first:
+      213: -8044918749763256037
+    second: Menu_principal_desarmada_3
+  - first:
+      213: 7518672837527543573
+    second: Menu_principal_desarmada_4
+  - first:
+      213: -7827846357337847023
+    second: Menu_principal_desarmada_5
+  - first:
+      213: -9192067086081941218
+    second: Menu_principal_desarmada_6
+  - first:
+      213: 6358600263595640554
+    second: Menu_principal_desarmada_7
+  - first:
+      213: 8307673326769246208
+    second: Menu_principal_desarmada_8
+  - first:
+      213: -7351860394777568129
+    second: Menu_principal_desarmada_9
+  - first:
+      213: -6501118768608126904
+    second: Menu_principal_desarmada_10
+  - first:
+      213: -7413028465831665984
+    second: Menu_principal_desarmada_11
+  - first:
+      213: 4592725290857858888
+    second: Menu_principal_desarmada_12
+  - first:
+      213: -2415717466710791730
+    second: Menu_principal_desarmada_13
+  - first:
+      213: -1379632214545230636
+    second: Menu_principal_desarmada_14
+  - first:
+      213: 9177248283048107965
+    second: Menu_principal_desarmada_0
+  - first:
+      213: -7705163819958756170
+    second: Menu_principal_desarmada_1
+  - first:
+      213: 5234523992023327718
+    second: Menu_principal_desarmada_2
+  - first:
+      213: 4081694483381410879
+    second: Menu_principal_desarmada_3
+  - first:
+      213: -886290545035395816
+    second: Menu_principal_desarmada_4
+  - first:
+      213: 3544499167718897798
+    second: Menu_principal_desarmada_5
+  - first:
+      213: 1419188714947002120
+    second: Menu_principal_desarmada_6
+  - first:
+      213: -5760105409848870221
+    second: Menu_principal_desarmada_7
+  - first:
+      213: -2581612752780160856
+    second: Menu_principal_desarmada_8
+  - first:
+      213: 839232628009085402
+    second: Menu_principal_desarmada_9
+  - first:
+      213: -387543830580920830
+    second: Menu_principal_desarmada_10
+  - first:
+      213: 3320380682950244270
+    second: Menu_principal_desarmada_11
+  - first:
+      213: 6889553611015420375
+    second: Menu_principal_desarmada_12
+  - first:
+      213: 6749089539388541490
+    second: Menu_principal_desarmada_13
+  - first:
+      213: 9019060518886828234
+    second: Menu_principal_desarmada_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4541
+        width: 1828
+        height: 983
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf55a6b0b22c5f70800000000000000
+      internalID: 9177248283048107965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3630
+        width: 1890
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc9a275452c11590800000000000000
+      internalID: -7705163819958756170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2553
+        width: 199
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e36fc846d3c4a840800000000000000
+      internalID: 5234523992023327718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2815
+        width: 790
+        height: 795
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cde93c18715a830800000000000000
+      internalID: 4081694483381410879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_4
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2337
+        width: 731
+        height: 658
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81db06fe17343b3f0800000000000000
+      internalID: -886290545035395816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2305
+        width: 169
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6887d86a637903130800000000000000
+      internalID: 3544499167718897798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_6
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2305
+        width: 374
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fb8a7fd98f1b310800000000000000
+      internalID: 1419188714947002120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1925
+        width: 226
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baf629e5aeff00b0800000000000000
+      internalID: -5760105409848870221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1841
+        width: 321
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a09bea11e44c2cd0800000000000000
+      internalID: -2581612752780160856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_9
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1760
+        width: 422
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad92664f0ad85ab00800000000000000
+      internalID: 839232628009085402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1153
+        width: 482
+        height: 492
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e745b70fa2f9af0800000000000000
+      internalID: -387543830580920830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_11
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1579
+        width: 180
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7715693ac541e20800000000000000
+      internalID: 3320380682950244270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_12
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1202
+        width: 289
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9759db18c9c9f50800000000000000
+      internalID: 6889553611015420375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_13
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1096
+        width: 307
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a0f888d2599ad50800000000000000
+      internalID: 6749089539388541490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 29
+        width: 1817
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8eff3c1c32a2d70800000000000000
+      internalID: 9019060518886828234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
