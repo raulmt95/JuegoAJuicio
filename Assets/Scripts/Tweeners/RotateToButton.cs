@@ -11,6 +11,8 @@ public class RotateToButton : MonoBehaviour, IPointerEnterHandler
     public float RotationAngle;
     public float RotationSpeed;
 
+    public List<GearRotation> GearsList;
+
     private Vector3 rotationVector;
 
     void Start()
@@ -21,10 +23,27 @@ public class RotateToButton : MonoBehaviour, IPointerEnterHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         RotateImage();
+        RotateGear();
     }
 
     private void RotateImage()
     {
-        ImageToRotate.transform.DORotate(rotationVector, RotationSpeed).SetEase(Ease.Linear);
+        ImageToRotate.transform.DORotate(rotationVector, RotationSpeed).SetEase(Ease.Linear).OnComplete(StopGear);
+    }
+
+    private void RotateGear()
+    {
+        foreach(GearRotation gear in GearsList)
+        {
+            gear.SetRotation(true);
+        }
+    }
+
+    private void StopGear()
+    {
+        foreach (GearRotation gear in GearsList)
+        {
+            gear.SetRotation(false);
+        }
     }
 }
