@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638246536368163837}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -71,7 +71,7 @@ LineRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingOrder: 8
   m_Positions:
   - {x: 1.02, y: 0, z: 0}
   - {x: 0, y: 1, z: 0}
@@ -151,8 +151,8 @@ MonoBehaviour:
   GravityForce: -0.25
   TimeDrop: 0.02
   Iterations: 40
-  GrowTime: 0.05
-  DeathSpeed: 2
+  GrowTime: 0.025
+  DeathSpeed: 0.04
   StartHair: {fileID: 0}
   Player: {fileID: 0}
   GrowHairButton: 324

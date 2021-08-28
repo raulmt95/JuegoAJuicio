@@ -12,7 +12,7 @@ public class Hair : MonoBehaviour
     public float TimeDrop = 0.1f;
     public int Iterations = 30;
     public float GrowTime = 0.1f;
-    [Range(1, 4)]
+    [Range(0, 4)]
     public float DeathSpeed = 2f;
 
     [Header("References")]
@@ -85,10 +85,15 @@ public class Hair : MonoBehaviour
     private void ReduceHair()
     {
         _timer += Time.deltaTime;
-        if (_timer > GrowTime)
+        if (_timer > DeathSpeed)
         {
             _timer = 0f;
-            hairSegLen -= DeathSpeed * _Grownth;
+            hairSegLen -= _Grownth;
+            if (hairSegLen <= 0)
+            {
+                hairSegLen = 0;
+                Player.UnhookPlayer();
+            }
         }
     }
     private void FixedUpdate()
