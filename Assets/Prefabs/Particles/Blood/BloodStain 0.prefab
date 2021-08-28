@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1721205374959878567}
   - component: {fileID: 1721205374959878564}
   m_Layer: 30
-  m_Name: BloodStain
+  m_Name: BloodStain 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
