@@ -96,6 +96,11 @@ public class PlayerController : MonoBehaviour
         {
             endJump = true;
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Die();
+        }
     }
 
     private void FixedUpdate()
