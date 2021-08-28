@@ -69,7 +69,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 12
   m_Sprite: {fileID: -2221490490488164218, guid: 30aa1229dc84c7d43bad8bc61af5dca1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -181,7 +181,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 12
   m_Sprite: {fileID: -2048881224037048649, guid: 30aa1229dc84c7d43bad8bc61af5dca1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -263,7 +263,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 9
   m_Sprite: {fileID: -4756028443593143600, guid: 530757d3a4b518549bf6e456fa281ac0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -345,7 +345,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 12
   m_Sprite: {fileID: -2048881224037048649, guid: 30aa1229dc84c7d43bad8bc61af5dca1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -472,7 +472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4039330361986370447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.204, y: -0.339, z: 0}
+  m_LocalPosition: {x: -0.15, y: -0.339, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4039330363150455501}
@@ -619,7 +619,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: -7301838665444957841, guid: 1205be80e9a88ce419799624426c3a0d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -666,8 +666,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04191184, y: 0.017962217}
-  m_Size: {x: 0.37075615, y: 0.6940756}
+  m_Offset: {x: -0.04321885, y: -0.012194991}
+  m_Size: {x: 0.2647977, y: 0.63376117}
   m_Direction: 0
 --- !u!114 &4039330363150455497
 MonoBehaviour:
@@ -831,7 +831,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 11
   m_Sprite: {fileID: 5089329953226399194, guid: 1205be80e9a88ce419799624426c3a0d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
