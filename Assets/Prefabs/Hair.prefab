@@ -151,7 +151,7 @@ MonoBehaviour:
   GravityForce: -0.25
   TimeDrop: 0.02
   Iterations: 40
-  GrowTime: 0.025
+  GrowTime: 0.02
   DeathSpeed: 0.04
   StartHair: {fileID: 0}
   Player: {fileID: 0}
