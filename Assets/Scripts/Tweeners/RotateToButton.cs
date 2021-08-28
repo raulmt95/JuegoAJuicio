@@ -15,6 +15,8 @@ public class RotateToButton : MonoBehaviour, IPointerEnterHandler
 
     private Vector3 rotationVector;
 
+    private bool _isRotating;
+
     void Start()
     {
         rotationVector = new Vector3(0, 0, RotationAngle);
@@ -23,12 +25,16 @@ public class RotateToButton : MonoBehaviour, IPointerEnterHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         RotateImage();
-        RotateGear();
     }
 
     private void RotateImage()
     {
-        ImageToRotate.transform.DORotate(rotationVector, RotationSpeed).SetEase(Ease.Linear).OnComplete(StopGear);
+        if(ImageToRotate.transform.localRotation.eulerAngles != rotationVector)
+        {
+            DOTween.KillAll();
+            ImageToRotate.transform.DORotate(rotationVector, RotationSpeed).SetEase(Ease.Linear).OnComplete(StopGear);
+            RotateGear();
+        }
     }
 
     private void RotateGear()
