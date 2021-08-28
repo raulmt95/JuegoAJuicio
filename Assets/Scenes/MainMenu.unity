@@ -1457,7 +1457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ImageToRotate: {fileID: 1641496058}
   RotationAngle: 341
-  RotationSpeed: 0.5
+  RotationTime: 0.35
   GearsList:
   - {fileID: 1989686728}
   - {fileID: 958110865}
@@ -2129,8 +2129,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ImageToRotate: {fileID: 1641496058}
-  RotationAngle: 38
-  RotationSpeed: 0.5
+  RotationAngle: 39
+  RotationTime: 0.35
   GearsList:
   - {fileID: 1989686728}
   - {fileID: 958110865}
@@ -3388,7 +3388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ImageToRotate: {fileID: 1641496058}
   RotationAngle: 290
-  RotationSpeed: 0.5
+  RotationTime: 0.35
   GearsList:
   - {fileID: 1989686728}
   - {fileID: 958110865}
@@ -4503,7 +4503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ImageToRotate: {fileID: 1641496058}
   RotationAngle: 241
-  RotationSpeed: 0.5
+  RotationTime: 0.35
   GearsList:
   - {fileID: 1989686728}
   - {fileID: 958110865}

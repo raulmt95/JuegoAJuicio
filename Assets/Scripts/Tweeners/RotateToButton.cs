@@ -9,7 +9,7 @@ public class RotateToButton : MonoBehaviour, IPointerEnterHandler
 {
     public GameObject ImageToRotate;
     public float RotationAngle;
-    public float RotationSpeed;
+    public float RotationTime;
 
     public List<GearRotation> GearsList;
 
@@ -24,6 +24,8 @@ public class RotateToButton : MonoBehaviour, IPointerEnterHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        MenuManager.Instance.KillGearTween();
+
         RotateImage();
     }
 
@@ -31,8 +33,9 @@ public class RotateToButton : MonoBehaviour, IPointerEnterHandler
     {
         if(ImageToRotate.transform.localRotation.eulerAngles != rotationVector)
         {
-            DOTween.KillAll();
-            ImageToRotate.transform.DORotate(rotationVector, RotationSpeed).SetEase(Ease.Linear).OnComplete(StopGear);
+            Tween myTween = ImageToRotate.transform.DORotate(rotationVector, RotationTime).SetEase(Ease.Linear).OnComplete(StopGear);
+            MenuManager.Instance.SetGeatTween(myTween);
+
             RotateGear();
         }
     }

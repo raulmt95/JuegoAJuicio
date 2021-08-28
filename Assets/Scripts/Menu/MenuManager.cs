@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
+using Utils;
 
-public class MenuManager : MonoBehaviour
+public class MenuManager : Singleton<MenuManager>
 {
     public GameObject MainPanel;
     public GameObject CreditsPanel;
@@ -19,6 +20,8 @@ public class MenuManager : MonoBehaviour
     private Vector3 hiddenPanelPos;
     private GameObject shownPanel;
     private GameObject hiddenPanel;
+
+    private Tween _gearTween;
 
     private void Start()
     {
@@ -37,6 +40,16 @@ public class MenuManager : MonoBehaviour
     private void SetPanelsPosition()
     {
         hiddenPanel.transform.position = hiddenPanelPos;
+    }
+
+    public void SetGeatTween(Tween gearTween)
+    {
+        _gearTween = gearTween;
+    }
+
+    public void KillGearTween()
+    {
+        if (_gearTween != null) { _gearTween.Kill(); }
     }
 
     #region BUTTONS
