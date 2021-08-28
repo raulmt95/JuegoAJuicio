@@ -32,6 +32,9 @@ public class PlayerController : MonoBehaviour
     public GameObject GroundSmallPS;
     public Hair hair;
 
+    [Header("Blood")]
+    public GameObject[] BloodStain;
+
     [Header("Shadow")]
     public GameObject Sombra;
     public float MaxDistanceShadow = 5f;
@@ -311,6 +314,9 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Spikes"))
         {
             Die();
+            Vector2 Midpoint = transform.position - (transform.position - other.transform.position)/2;
+            int index = UnityEngine.Random.Range(0, BloodStain.Length);
+            Instantiate(BloodStain[index], Midpoint, Quaternion.identity, other.GetComponentInChildren<SpriteRenderer>().transform);
         }
 
         if (other.CompareTag("Checkpoint"))

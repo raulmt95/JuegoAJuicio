@@ -701,6 +701,10 @@ MonoBehaviour:
   GroundSmallPS: {fileID: 8723262330972324453, guid: 5692184b4a9500346a08ea9e3587997e,
     type: 3}
   hair: {fileID: 0}
+  BloodStain:
+  - {fileID: 1721205374959878565, guid: 35a8452339c5cbf4482f379c6849a49d, type: 3}
+  - {fileID: 1721205374959878565, guid: 5f9832f351b1968439553fd016242ccc, type: 3}
+  - {fileID: 1721205374959878565, guid: cba19813f01a2684aaf6cbff1b058e17, type: 3}
   Sombra: {fileID: 1767223438}
   MaxDistanceShadow: 5
   ShadowScaleMax: 0.45
