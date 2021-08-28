@@ -24627,7 +24627,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7624710097419786434, guid: e1f5a9f42dd2d044ebf403a192309363, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e1f5a9f42dd2d044ebf403a192309363, type: 3}
 --- !u!1001 &672092546
 PrefabInstance:
@@ -31295,11 +31296,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cutter (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 2774938702482910429, guid: cfca6b62fe60871439411c6cf014d81b,
-        type: 3}
-      propertyPath: m_BodyType
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2774938702482910430, guid: cfca6b62fe60871439411c6cf014d81b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31354,11 +31350,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2774938702482910430, guid: cfca6b62fe60871439411c6cf014d81b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfca6b62fe60871439411c6cf014d81b, type: 3}

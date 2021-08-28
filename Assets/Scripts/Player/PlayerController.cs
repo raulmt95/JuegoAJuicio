@@ -227,7 +227,7 @@ public class PlayerController : MonoBehaviour
         if (Physics2D.Raycast(groundCheck1.position, Vector2.down, checkDistance, groundLayer) ||
             Physics2D.Raycast(groundCheck2.position, Vector2.down, checkDistance, groundLayer))
         {
-            if(rb.velocity.y < 0)
+            if(rb.velocity.y < 0.1f)
             {
                 anim.SetBool("IsGrounded", true);
                 HeadAnimator.SetTrigger("Grounded");
