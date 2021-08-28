@@ -1,0 +1,2144 @@
+fileFormatVersion: 2
+guid: c5ed9edf0fab5104fb95dbfbf9811f04
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7552062442941748395
+    second: Spritesheet_teclado_0
+  - first:
+      213: 4607703944032392799
+    second: Spritesheet_teclado_1
+  - first:
+      213: 1925124280094861716
+    second: Spritesheet_teclado_2
+  - first:
+      213: -3156364771980006409
+    second: Spritesheet_teclado_3
+  - first:
+      213: -4497829507794257192
+    second: Spritesheet_teclado_4
+  - first:
+      213: 7367981530998991901
+    second: Spritesheet_teclado_5
+  - first:
+      213: -8206142979131316552
+    second: Spritesheet_teclado_6
+  - first:
+      213: -4474861551496157530
+    second: Spritesheet_teclado_7
+  - first:
+      213: 7079213847753528839
+    second: Spritesheet_teclado_8
+  - first:
+      213: -4486635366916368746
+    second: Spritesheet_teclado_9
+  - first:
+      213: -1570471944867566545
+    second: Spritesheet_teclado_10
+  - first:
+      213: -3967201496733146551
+    second: Spritesheet_teclado_11
+  - first:
+      213: -1572679947188207937
+    second: Spritesheet_teclado_12
+  - first:
+      213: -3655890752205809475
+    second: Spritesheet_teclado_13
+  - first:
+      213: 7233451172245091421
+    second: Spritesheet_teclado_14
+  - first:
+      213: -762339459144819079
+    second: Spritesheet_teclado_15
+  - first:
+      213: -20432203728938842
+    second: Spritesheet_teclado_16
+  - first:
+      213: 7148568195413996299
+    second: Spritesheet_teclado_17
+  - first:
+      213: 831403160968180800
+    second: Spritesheet_teclado_18
+  - first:
+      213: -4661853410770588453
+    second: Spritesheet_teclado_19
+  - first:
+      213: 4506753652958378292
+    second: Spritesheet_teclado_20
+  - first:
+      213: 8366365031786395298
+    second: Spritesheet_teclado_21
+  - first:
+      213: 6584780432273129278
+    second: Spritesheet_teclado_22
+  - first:
+      213: 2467937723917216780
+    second: Spritesheet_teclado_23
+  - first:
+      213: 9121879015659796373
+    second: Spritesheet_teclado_24
+  - first:
+      213: -4504677855803159674
+    second: Spritesheet_teclado_25
+  - first:
+      213: 4947845376717094970
+    second: Spritesheet_teclado_26
+  - first:
+      213: -1232497776788128576
+    second: Spritesheet_teclado_27
+  - first:
+      213: -7803835476677635613
+    second: Spritesheet_teclado_28
+  - first:
+      213: 2158930036109617764
+    second: Spritesheet_teclado_29
+  - first:
+      213: -2655505151436399869
+    second: Spritesheet_teclado_30
+  - first:
+      213: 2235389571043080885
+    second: Spritesheet_teclado_31
+  - first:
+      213: -3293187831366786581
+    second: Spritesheet_teclado_32
+  - first:
+      213: 2061869385709807211
+    second: Spritesheet_teclado_33
+  - first:
+      213: 5742646233106960719
+    second: Spritesheet_teclado_34
+  - first:
+      213: 8686907812649830116
+    second: Spritesheet_teclado_35
+  - first:
+      213: -851411004393946667
+    second: Spritesheet_teclado_36
+  - first:
+      213: 4322139751051348201
+    second: Spritesheet_teclado_37
+  - first:
+      213: 7062675428401212495
+    second: Spritesheet_teclado_38
+  - first:
+      213: 8814765009248819068
+    second: Spritesheet_teclado_39
+  - first:
+      213: -3589643354893824406
+    second: Spritesheet_teclado_40
+  - first:
+      213: -3437114717383362370
+    second: Spritesheet_teclado_41
+  - first:
+      213: 5681059465315503895
+    second: Spritesheet_teclado_42
+  - first:
+      213: -3146487991221072159
+    second: Spritesheet_teclado_43
+  - first:
+      213: 5657912188978958671
+    second: Spritesheet_teclado_44
+  - first:
+      213: 5051433460473809196
+    second: Spritesheet_teclado_45
+  - first:
+      213: -1625990238225184288
+    second: Spritesheet_teclado_46
+  - first:
+      213: 6104846682273452823
+    second: Spritesheet_teclado_47
+  - first:
+      213: 1635261524136863070
+    second: Spritesheet_teclado_48
+  - first:
+      213: -8029320764130232117
+    second: Spritesheet_teclado_49
+  - first:
+      213: 1138789105635901625
+    second: Spritesheet_teclado_50
+  - first:
+      213: 9039942735580195541
+    second: Spritesheet_teclado_51
+  - first:
+      213: 923493760386564112
+    second: Spritesheet_teclado_52
+  - first:
+      213: -3243074159263592998
+    second: Spritesheet_teclado_53
+  - first:
+      213: -3250833581503945142
+    second: Spritesheet_teclado_54
+  - first:
+      213: 6170907611266906498
+    second: Spritesheet_teclado_55
+  - first:
+      213: -5457053522875938789
+    second: Spritesheet_teclado_56
+  - first:
+      213: -86101241752297342
+    second: Spritesheet_teclado_57
+  - first:
+      213: -5297782186710078321
+    second: Spritesheet_teclado_58
+  - first:
+      213: -5208632423396449931
+    second: Spritesheet_teclado_59
+  - first:
+      213: -4953483284849458483
+    second: Spritesheet_teclado_60
+  - first:
+      213: 2996985598839542480
+    second: Spritesheet_teclado_61
+  - first:
+      213: 697401336903252487
+    second: Spritesheet_teclado_62
+  - first:
+      213: -4546198834986299092
+    second: Spritesheet_teclado_63
+  - first:
+      213: -8548212025033008120
+    second: Spritesheet_teclado_64
+  - first:
+      213: 2396803212240281561
+    second: Spritesheet_teclado_65
+  - first:
+      213: 6842886628583831619
+    second: Spritesheet_teclado_66
+  - first:
+      213: -5561271835055314607
+    second: Spritesheet_teclado_67
+  - first:
+      213: -6019166612176046857
+    second: Spritesheet_teclado_68
+  - first:
+      213: -3944144707146779079
+    second: Spritesheet_teclado_69
+  - first:
+      213: 4028339801747508985
+    second: Spritesheet_teclado_70
+  - first:
+      213: 4689094532877295387
+    second: Spritesheet_teclado_71
+  - first:
+      213: 7786234041897034754
+    second: Spritesheet_teclado_72
+  - first:
+      213: 8859374289183780928
+    second: Spritesheet_teclado_73
+  - first:
+      213: -5759783538316772198
+    second: Spritesheet_teclado_74
+  - first:
+      213: -592178329401886039
+    second: Spritesheet_teclado_75
+  - first:
+      213: -821434953969350062
+    second: Spritesheet_teclado_76
+  - first:
+      213: 353176281734562841
+    second: Spritesheet_teclado_77
+  - first:
+      213: -1319759826517339646
+    second: Spritesheet_teclado_78
+  - first:
+      213: -8327694024567062314
+    second: Spritesheet_teclado_79
+  - first:
+      213: 5541724770161628252
+    second: Spritesheet_teclado_80
+  - first:
+      213: -2313956302631124406
+    second: Spritesheet_teclado_81
+  - first:
+      213: 3678347247613031433
+    second: Spritesheet_teclado_82
+  - first:
+      213: -2758454677319874352
+    second: Spritesheet_teclado_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_teclado_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 687
+        width: 922
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b63ee783fa13790800000000000000
+      internalID: -7552062442941748395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_1
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1004
+        width: 82
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56973e035ad1ff30800000000000000
+      internalID: 4607703944032392799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_2
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499a88f355a67ba10800000000000000
+      internalID: 1925124280094861716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_3
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb239886f65234d0800000000000000
+      internalID: -3156364771980006409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_4
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da37a7a4ef7491c0800000000000000
+      internalID: -4497829507794257192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_5
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c65da4a24504660800000000000000
+      internalID: 7367981530998991901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_6
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6efc0407ced1e80800000000000000
+      internalID: -8206142979131316552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_7
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6a404b02916e1c0800000000000000
+      internalID: -4474861551496157530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_8
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706106cbc7b6e3260800000000000000
+      internalID: 7079213847753528839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_9
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696de3ea7e44cb1c0800000000000000
+      internalID: -4486635366916368746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_10
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ca37c3610943ae0800000000000000
+      internalID: -1570471944867566545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_11
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942a2d2024ba1f8c0800000000000000
+      internalID: -3967201496733146551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_12
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe7772abe7bc2ae0800000000000000
+      internalID: -1572679947188207937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_13
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db813290bbaa34dc0800000000000000
+      internalID: -3655890752205809475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_14
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1004
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d543dc54481626460800000000000000
+      internalID: 7233451172245091421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_15
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ed86b0d40ab65f0800000000000000
+      internalID: -762339459144819079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_16
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a812cad40967bff0800000000000000
+      internalID: -20432203728938842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_17
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037e4426e0d43360800000000000000
+      internalID: 7148568195413996299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_18
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04435aa15ccb98b00800000000000000
+      internalID: 831403160968180800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_19
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc6310c505cd4fb0800000000000000
+      internalID: -4661853410770588453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_20
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43937cec1943b8e30800000000000000
+      internalID: 4506753652958378292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_21
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6b0e46bac4b1470800000000000000
+      internalID: 8366365031786395298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_22
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f359d5ae6d16b50800000000000000
+      internalID: 6584780432273129278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_23
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c2fd1c840ef3220800000000000000
+      internalID: 2467937723917216780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_24
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597fd7c82ac679e70800000000000000
+      internalID: 9121879015659796373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_25
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bc8416b5b2c71c0800000000000000
+      internalID: -4504677855803159674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_26
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3008c2c7274aa440800000000000000
+      internalID: 4947845376717094970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_27
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 942
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccb5145dc945eee0800000000000000
+      internalID: -1232497776788128576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_28
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 942
+        width: 84
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1d90ffaf433b390800000000000000
+      internalID: -7803835476677635613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_29
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 881
+        width: 82
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a2c39ed6f06fd10800000000000000
+      internalID: 2158930036109617764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_30
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bd96d5220c52bd0800000000000000
+      internalID: -2655505151436399869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_31
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bab2a4a8f2b50f10800000000000000
+      internalID: 2235389571043080885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_32
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be16ebc8d1f3c42d0800000000000000
+      internalID: -3293187831366786581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_33
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b666c74384b3d9c10800000000000000
+      internalID: 2061869385709807211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_34
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41531bb25af1bf40800000000000000
+      internalID: 5742646233106960719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_35
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e60f8161a81e8870800000000000000
+      internalID: 8686907812649830116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_36
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d18d35d33e2f24f0800000000000000
+      internalID: -851411004393946667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_37
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8c20334335bfb30800000000000000
+      internalID: 4322139751051348201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_38
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cebb9e1e9a30260800000000000000
+      internalID: 7062675428401212495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_39
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7791d2c216545a70800000000000000
+      internalID: 8814765009248819068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_40
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e463133660f2ec0800000000000000
+      internalID: -3589643354893824406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_41
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 881
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8f81a006aec40d0800000000000000
+      internalID: -3437114717383362370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_42
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 820
+        width: 51
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f4002fb7d27de40800000000000000
+      internalID: 5681059465315503895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_43
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 820
+        width: 99
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee4c31c7dd6554d0800000000000000
+      internalID: -3146487991221072159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_44
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f419172b821f48e40800000000000000
+      internalID: 5657912188978958671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_45
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29401af7fb4a1640800000000000000
+      internalID: 5051433460473809196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_46
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9c5524e725f69e0800000000000000
+      internalID: -1625990238225184288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_47
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713912176b5c8b450800000000000000
+      internalID: 6104846682273452823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_48
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55aa0531bd91b610800000000000000
+      internalID: 1635261524136863070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_49
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc879526e4f129090800000000000000
+      internalID: -8029320764130232117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_50
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0438378aacdcf00800000000000000
+      internalID: 1138789105635901625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da6128b504547d70800000000000000
+      internalID: 9039942735580195541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_52
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0108124aea8e0dc00800000000000000
+      internalID: 923493760386564112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_53
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add48d41c394ef2d0800000000000000
+      internalID: -3243074159263592998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_54
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46eb8ec418b2e2d0800000000000000
+      internalID: -3250833581503945142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_55
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 820
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289715f07c773a550800000000000000
+      internalID: 6170907611266906498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_56
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 759
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b188fa0dbb6a444b0800000000000000
+      internalID: -5457053522875938789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_57
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28062a6706b1ecef0800000000000000
+      internalID: -86101241752297342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_58
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ce0c78b2f7a76b0800000000000000
+      internalID: -5297782186710078321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_59
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5716fdd486837b7b0800000000000000
+      internalID: -5208632423396449931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_60
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc286b57231b14bb0800000000000000
+      internalID: -4953483284849458483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_61
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2dacff58e679920800000000000000
+      internalID: 2996985598839542480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_62
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a300822daada900800000000000000
+      internalID: 697401336903252487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_63
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21d8521f38a8e0c0800000000000000
+      internalID: -4546198834986299092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_64
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c5f2f1476ae5980800000000000000
+      internalID: -8548212025033008120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_65
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfd81e92d7234120800000000000000
+      internalID: 2396803212240281561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_66
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348720f2221d6fe50800000000000000
+      internalID: 6842886628583831619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_67
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 759
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159a42c1bb462d2b0800000000000000
+      internalID: -5561271835055314607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_68
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 759
+        width: 131
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4fa5d6bdf977ca0800000000000000
+      internalID: -6019166612176046857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_69
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 697
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93677cb29459349c0800000000000000
+      internalID: -3944144707146779079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_70
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 697
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe4ab5e4b987e730800000000000000
+      internalID: 4028339801747508985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_71
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 697
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f906e32a2031140800000000000000
+      internalID: 4689094532877295387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_72
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 697
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204a35d9b924e0c60800000000000000
+      internalID: 7786234041897034754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_73
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 697
+        width: 299
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040370f1af1d2fa70800000000000000
+      internalID: 8859374289183780928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_74
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 697
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c7c7773632110b0800000000000000
+      internalID: -5759783538316772198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_75
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 697
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaf05862f828c7f0800000000000000
+      internalID: -592178329401886039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_76
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 697
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a4192f24da994f0800000000000000
+      internalID: -821434953969350062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_77
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 725
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914c1eff4fbb6e400800000000000000
+      internalID: 353176281734562841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_78
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 697
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2025a9f1e654fade0800000000000000
+      internalID: -1319759826517339646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_79
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 697
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0898b18661e6c80800000000000000
+      internalID: -8327694024567062314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_80
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 380
+        width: 193
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c549770315928ec40800000000000000
+      internalID: 5541724770161628252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_81
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 552
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4245eba00d23efd0800000000000000
+      internalID: -2313956302631124406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_82
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 530
+        width: 21
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904b28e355d1c0330800000000000000
+      internalID: 3678347247613031433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_teclado_83
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 552
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8855df51008b9d0800000000000000
+      internalID: -2758454677319874352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
