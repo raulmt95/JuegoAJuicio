@@ -11,7 +11,7 @@ public class HookPlaces : MonoBehaviour
 
     [Header("Animacion Hook")]
     public float Duracion = 0.15f;
-    public float Desplazamiento = 0.2f;
+    public float FinalDesplazamientoY = 2.5f;
 
     private DistanceJoint2D _joint;
 
@@ -52,7 +52,7 @@ public class HookPlaces : MonoBehaviour
         HairRef.HookRef(this);
 
         if(!Trap)
-            transform.GetChild(0).DOLocalMoveY(transform.GetChild(0).position.y - Desplazamiento, Duracion).SetLoops(2, LoopType.Yoyo).Play();
+            transform.GetChild(0).DOLocalMoveY(FinalDesplazamientoY, Duracion).SetLoops(2, LoopType.Yoyo).Play();
     }
 
     private void Update()
