@@ -2,11 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class HookPlaces : MonoBehaviour
 {
     public Rigidbody2D Player_rb;
     public bool Trap = false;
+
+    [Header("Animacion Hook")]
+    public float Duracion = 0.15f;
+    public float Desplazamiento = 0.2f;
 
     private DistanceJoint2D _joint;
 
@@ -45,6 +50,9 @@ public class HookPlaces : MonoBehaviour
         _joint.enabled = true;
         _joint.distance = HairRef.LockClosestPoint(Vector2.Distance(transform.position, Player_rb.transform.position));
         HairRef.HookRef(this);
+
+        if(!Trap)
+            transform.GetChild(0).DOLocalMoveY(transform.GetChild(0).position.y - Desplazamiento, Duracion).SetLoops(2, LoopType.Yoyo).Play();
     }
 
     private void Update()
