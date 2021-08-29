@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7624710097419786432}
   - component: {fileID: 7624710097419786435}
-  - component: {fileID: 7624710097419786434}
   - component: {fileID: 7624710097419786433}
   m_Layer: 0
   m_Name: BloodCamera
@@ -76,14 +75,6 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &7624710097419786434
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7624710097419786463}
-  m_Enabled: 1
 --- !u!114 &7624710097419786433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7624710098250545252}
   m_Layer: 0
-  m_Name: BloodEffect
+  m_Name: BloodEffect (Children Camera)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

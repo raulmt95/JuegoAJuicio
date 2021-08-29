@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     public GameObject GroundPS;
     public GameObject GroundSmallPS;
     public Hair hair;
+    public bool Tutorial;
 
     [Header("Blood")]
     public GameObject[] BloodStain;
@@ -388,6 +389,9 @@ public class PlayerController : MonoBehaviour
             HeadAnimator.SetTrigger("Death");
 
             Invoke(nameof(Spawn), 1.5f);
+
+            if (Tutorial)
+                hair.hairSegLen = 0.05f;
         }
     }
 
