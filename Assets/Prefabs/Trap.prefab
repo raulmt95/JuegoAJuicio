@@ -87,6 +87,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player_rb: {fileID: 0}
   Trap: 1
+  Duracion: 0.15
+  Desplazamiento: 0.2
 --- !u!232 &112999085627568441
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -118,6 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71b7a140e1d69a34980712bf97608610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChispitasPS: {fileID: 8924190331606978130, guid: ec88cc5136ba14545a016bef98e28bbf,
+    type: 3}
 --- !u!1 &639880614127894844
 GameObject:
   m_ObjectHideFlags: 0
