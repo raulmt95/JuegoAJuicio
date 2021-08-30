@@ -59,6 +59,7 @@ public class PlayerController : MonoBehaviour
     private float growthFactor = 1;
     private float _timerCoyote;
     private bool _hooked;
+    private bool _blocked = false;
 
     private void OnDrawGizmos()
     {
@@ -110,10 +111,11 @@ public class PlayerController : MonoBehaviour
 
         if (!isDead && !isSpawning)
         {
+            CheckShadow();
+            if (_blocked) return;
             CheckWall();
             CheckMove();
             CheckJump();
-            CheckShadow();
         }
     }
 
@@ -317,8 +319,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.tag);
-
         if (other.CompareTag("Spikes"))
         {
             Die();
@@ -420,12 +420,17 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == 8)
+        if (collision.gameObject.layer == 8 && !_blocked)
         {
             if (collision.relativeVelocity.y >= 7)
                 Instantiate(GroundPS, collision.contacts[0].point, Quaternion.identity);
-            else
+            else if(collision.relativeVelocity.y >= 2)
                 Instantiate(GroundSmallPS, collision.contacts[0].point, Quaternion.identity);
         }
+    }
+
+    public void BlockChar()
+    {
+        _blocked = true;
     }
 }

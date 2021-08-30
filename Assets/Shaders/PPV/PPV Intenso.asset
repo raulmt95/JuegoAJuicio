@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 7
     min: -100
     max: 100
   colorFilter:
@@ -35,7 +35,7 @@ MonoBehaviour:
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 6
+    m_Value: 7
     min: -100
     max: 100
 --- !u!114 &-5408754402955952933
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   temperature:
     m_OverrideState: 1
-    m_Value: 19.7
+    m_Value: 22
     min: -100
     max: 100
   tint:
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5e1dc532bcb41949b58bc4f2abfbb7e, type: 3}
   m_Name: LensDistortion
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
@@ -231,6 +231,6 @@ MonoBehaviour:
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.08
     min: 0
     max: 1
