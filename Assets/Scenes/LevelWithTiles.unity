@@ -4736,6 +4736,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1008134021}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &127439814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1263710072}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &129575238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2102690885794714926, guid: 0efdd03d674ceee42ae1a3ad7201d86a,
@@ -34064,6 +34070,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ad4151326403e744bc2be87ca7a14b6, type: 3}
+--- !u!1001 &1263710072
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1299538416}
+    m_Modifications:
+    - target: {fileID: 3313793756584817450, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_Name
+      value: Parallax (ChildrenCamera)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313793756584817451, guid: 6d5b124aadf26fd4d9afea86b2a92cb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6d5b124aadf26fd4d9afea86b2a92cb6, type: 3}
 --- !u!1 &1263736961
 GameObject:
   m_ObjectHideFlags: 0
@@ -34760,6 +34835,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 257846962}
+  - {fileID: 127439814}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
