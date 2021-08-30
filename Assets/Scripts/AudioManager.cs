@@ -70,6 +70,8 @@ public class AudioManager : Singleton<AudioManager>
         SFXAudioSource.PlayOneShot(clip);
     }
 
+    #region Sounds
+
     public void PlayJumpSound()
     {
         PlayEffect(JumpSound);
@@ -104,4 +106,6 @@ public class AudioManager : Singleton<AudioManager>
     {
         PlayEffect(ButtonClickSound);
     }
+
+    #endregion
 }
