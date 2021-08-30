@@ -21,6 +21,20 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!244 &-3049335296861845117
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: e962627c84d3a874e9c1e7440a412a52
+  m_EffectName: Attenuation
+  m_MixLevel: 99d895bfecc32f34080152fe14bfba05
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-2568362440497288246
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -101,6 +115,7 @@ AudioMixerController:
     - 0d4439520650a684397d1e9c3f5ea83d
     - ec47601e4851bc4459458ad6c4aebafe
     - e8f812116566d9e41a73325901a206dd
+    - 972da139c648911438a4b707b59bd677
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -150,8 +165,28 @@ AudioMixerSnapshotController:
   m_SnapshotID: 30193a08621095347a0ad0a0b59dc6c1
   m_FloatValues:
     cb682fe2a9f359140afd51badf1d04f3: -80
+    d3ad5643cf29d6140a4a438e8e116a32: -10
     57d82bea7b38609479930d674fee7726: 0
   m_TransitionOverrides: {}
+--- !u!243 &210422421950149612
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GearLoop
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 972da139c648911438a4b707b59bd677
+  m_Children: []
+  m_Volume: d3ad5643cf29d6140a4a438e8e116a32
+  m_Pitch: d7a01febdd958cc4f85c00ae86401061
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -3049335296861845117}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!244 &846710962327681229
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -175,7 +210,8 @@ AudioMixerGroupController:
   m_Name: SFX
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 0d4439520650a684397d1e9c3f5ea83d
-  m_Children: []
+  m_Children:
+  - {fileID: 210422421950149612}
   m_Volume: 970ade044120683428185cd4a9018e5d
   m_Pitch: 4f3cdc1d461540f41b30a8284efe912b
   m_Send: 00000000000000000000000000000000

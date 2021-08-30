@@ -296,6 +296,8 @@ public class Hair : MonoBehaviour
 
     public void CutHair(float distance)
     {
+        AudioManager.Instance.PlayHairCutSound();
+
         float newLength = 0.1f;
         int index = 0;
         for (int i = 1; i < segmentLength; i++)

@@ -206,6 +206,8 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
+            AudioManager.Instance.PlayJumpSound();
+
             isGrounded = false;
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
             anim.SetBool("IsGrounded", false);
@@ -377,6 +379,8 @@ public class PlayerController : MonoBehaviour
     {
         if (!isDead)
         {
+            AudioManager.Instance.PlayDeathSound();
+
             ResetHair();
             UnhookPlayer();
             hair.DisableCollider();
@@ -397,6 +401,8 @@ public class PlayerController : MonoBehaviour
 
     public void HookPlayer()
     {
+        AudioManager.Instance.PlayHookSound();
+
         _hooked = true;
     }
 
