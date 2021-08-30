@@ -45183,7 +45183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef3c5cef089801c4cb90060fea9ecf9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxMinutes: 10
+  MaxMinutes: 5
 --- !u!114 &2042412674
 MonoBehaviour:
   m_ObjectHideFlags: 0
