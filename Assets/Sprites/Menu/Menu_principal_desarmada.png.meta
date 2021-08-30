@@ -92,6 +92,12 @@ TextureImporter:
   - first:
       213: 9019060518886828234
     second: Menu_principal_desarmada_14
+  - first:
+      213: -8733689539304381948
+    second: Menu_principal_desarmada_15
+  - first:
+      213: -6946660897585003554
+    second: Menu_principal_desarmada_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -511,6 +517,27 @@ TextureImporter:
       bones: []
       spriteID: ac8eff3c1c32a2d70800000000000000
       internalID: 9019060518886828234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_principal_desarmada_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 1889
+        height: 1044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402a73713a3bbc680800000000000000
+      internalID: -8733689539304381948
       vertices: []
       indices: 
       edges: []
