@@ -84,6 +84,8 @@ public class PlayerController : MonoBehaviour
     {
         currentSpawn = startingSpawn;
 
+        anim.SetTrigger("Jump");
+
         //Spawn();    // ESTO EN OTRO SITIO?
     }
 
