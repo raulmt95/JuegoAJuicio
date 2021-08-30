@@ -72,6 +72,7 @@ public class PauseManager : MonoBehaviour
     public void OnExitConfirmed()
     {
         LoadSceneByIndex(MenuSceneIndex);
+        SetGameTimeScale(1);
     }
 
     public void OnExitRejected()

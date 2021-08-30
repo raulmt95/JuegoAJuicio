@@ -21,14 +21,15 @@ public class SoundSliders : MonoBehaviour
 
     private void Start()
     {
-        _slider.value = 0.75f;
-
         SetValueOnStart();
     }
 
     void SetValueOnStart()
     {
-        //Setear el valor del slider al volumen
+        float value;
+
+        if (IsMusic && Mixer.GetFloat("MusicVol", out value)) { _slider.value = ((Mathf.Pow(10, value / 20))); }
+        if (!IsMusic && Mixer.GetFloat("SFXVol", out value)) { _slider.value = ((Mathf.Pow(10, value / 20))); }
     }
 
     void SetVolumeLevel(float value, bool isMusic)

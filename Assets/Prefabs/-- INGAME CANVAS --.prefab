@@ -2774,7 +2774,7 @@ MonoBehaviour:
   PausePanel: {fileID: 5703171618719475074}
   ExitConfirmationPanel: {fileID: 5703171619323364373}
   PopupAnimationDuration: 0.25
-  MenuSceneIndex: 0
+  MenuSceneIndex: 1
 --- !u!1 &5703171618869290412
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,7 +3166,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5703171619323364372
 RectTransform:
   m_ObjectHideFlags: 0
