@@ -45,6 +45,9 @@ public class TimeGame : Singleton<TimeGame>
             _timeString += _seconds.ToString("F0");
 
         _text.text = _timeString;
+
+        if (_minutes >= MaxMinutes)
+            _text.color = Color.red;
     }
 
     private void UpdateTime()
