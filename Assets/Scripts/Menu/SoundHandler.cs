@@ -23,7 +23,7 @@ public class SoundHandler : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
     void Start()
     {
         volumeSetter = GetComponent<SetVolume>();
-        volumeSetter.SetVolumeLevel(CalculateRotationLevel(transform.localRotation.eulerAngles.z), IsMusic);
+        //volumeSetter.SetVolumeLevel(CalculateRotationLevel(transform.localRotation.eulerAngles.z), IsMusic);
     }
 
     void Update()
