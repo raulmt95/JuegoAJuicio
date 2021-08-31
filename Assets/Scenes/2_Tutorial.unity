@@ -7346,6 +7346,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.192472
       objectReference: {fileID: 0}
+    - target: {fileID: 7871365907698856285, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 7871365907698856287, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
         type: 3}
       propertyPath: Player_rb
@@ -7386,6 +7391,11 @@ PrefabInstance:
       propertyPath: Player_rb
       value: 
       objectReference: {fileID: 1172215495}
+    - target: {fileID: 7871365907832234470, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 7871365907923734440, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10962,6 +10972,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.19
       objectReference: {fileID: 0}
+    - target: {fileID: 7871365907698856285, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7871365907698856287, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
         type: 3}
       propertyPath: Player_rb
@@ -11067,11 +11082,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 7871365908356568644, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7871365908356568646, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
         type: 3}
       propertyPath: Player_rb
       value: 
       objectReference: {fileID: 1172215495}
+    - target: {fileID: 7871365908542340729, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.34
+      objectReference: {fileID: 0}
     - target: {fileID: 7871365908542340731, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
         type: 3}
       propertyPath: Player_rb
@@ -22255,6 +22280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7871365907665080933, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 7871365907665080935, guid: 2529e1c0a14aec049bb7b4cefd144c0d,
         type: 3}

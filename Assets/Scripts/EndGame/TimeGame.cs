@@ -53,7 +53,7 @@ public class TimeGame : Singleton<TimeGame>
     private void UpdateTime()
     {
         _seconds += Time.deltaTime;
-        if (_seconds > 60)
+        if (_seconds >= 60)
         {
             _minutes++;
             _seconds = 0;
