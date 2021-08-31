@@ -11,6 +11,7 @@ public class CambioDeEscenaTuto : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
+            PlayerPrefs.SetInt("TutorialCompleted", 1);
             DoOutAnimation();
         }
     }
