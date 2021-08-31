@@ -59,20 +59,17 @@ public class SoundHandler : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        //Setear volumen
         volumeSetter.SetVolumeLevel(CalculateRotationLevel(transform.localRotation.eulerAngles.z), IsMusic);
     }
  
     float CalculateRotationLevel(float zRotation)
     {
         zRotation += DragLimit;
-        if(zRotation == 360f) { zRotation = 0.0001f; }
-        else if(zRotation > DragLimit * 2)
-        {
-            zRotation -= 360f;
-        }
 
-        return zRotation/ (DragLimit * 2);
+        if (zRotation == 360f) { return 0.0001f; }
+        if (zRotation > DragLimit * 2) { zRotation = (360 - zRotation) * -1; }
+
+        return zRotation / (DragLimit * 2);
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -87,7 +84,7 @@ public class SoundHandler : MonoBehaviour, IDragHandler, IBeginDragHandler, IEnd
             }
         }
     }
- 
+
     private bool DragWorldPoint(PointerEventData eventData, out Vector3 worldPoint)
     {
         return RectTransformUtility.ScreenPointToWorldPointInRectangle(
