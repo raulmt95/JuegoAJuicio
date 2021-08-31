@@ -16,6 +16,7 @@ public class MenuManager : Singleton<MenuManager>
     public float MoveTime;
     public Transform ShowPanelPos;
     public Transform HidePanelPos;
+    public CambioDeEscenaTuto SceneChanger;
 
     private Vector3 hiddenPanelPos;
     private GameObject shownPanel;
@@ -56,7 +57,7 @@ public class MenuManager : Singleton<MenuManager>
 
     public void OnPlayButtonPressed(int index)
     {
-        SceneManager.LoadScene(index);
+        SceneChanger.DoOutAnimation();
         AudioManager.Instance.GameTransition();
     }
 

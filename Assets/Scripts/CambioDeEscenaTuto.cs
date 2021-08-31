@@ -11,9 +11,14 @@ public class CambioDeEscenaTuto : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            Anim.SetTrigger("Out");
-            Invoke(nameof(ChangeScene), 0.5f);
+            DoOutAnimation();
         }
+    }
+
+    public void DoOutAnimation()
+    {
+        Anim.SetTrigger("Out");
+        Invoke(nameof(ChangeScene), 0.5f);
     }
 
     private void ChangeScene()
