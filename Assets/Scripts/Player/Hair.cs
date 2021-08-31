@@ -261,7 +261,6 @@ public class Hair : MonoBehaviour
             if (Vector2.Distance(hairSegments[i].posNow, Player.transform.position) < distance)
             {
                 _blockPointIndex = i;
-                Debug.Log(_blockPointIndex);
                 break;
             }
         }

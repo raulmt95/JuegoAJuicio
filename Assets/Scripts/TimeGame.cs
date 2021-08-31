@@ -6,22 +6,26 @@ using Utils;
 
 public class TimeGame : Singleton<TimeGame>
 {
-    private TextMeshProUGUI _text;
     public int MaxMinutes = 10;
+    public bool Debugging;
+    private TextMeshProUGUI _text;
     private float _seconds;
     private int _minutes;
     private string _timeString;
+    private bool _counting = true;
     // Start is called before the first frame update
     void Start()
     {
         _text = GetComponent<TextMeshProUGUI>();
         _seconds = 0;
         _minutes = 0;
+        if (Debugging) _minutes = 5;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!_counting) return;
         UpdateTime();
         UpdateText();
 
@@ -55,9 +59,12 @@ public class TimeGame : Singleton<TimeGame>
 
     public bool OnTime()
     {
-        if (_minutes > MaxMinutes)
+        _counting = false;
+
+        if (_minutes >= MaxMinutes)
             return false;
         else
             return true;
+
     }
 }
