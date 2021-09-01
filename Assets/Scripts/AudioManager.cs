@@ -39,6 +39,7 @@ public class AudioManager : Singleton<AudioManager>
 
     [Header("UI Sounds")]
     public AudioClip ButtonHoverSound;
+    public AudioClip ButtonMainHover;
     public AudioClip ButtonClickSound;
 
     private void Awake()
@@ -102,6 +103,11 @@ public class AudioManager : Singleton<AudioManager>
     public void PlayButtonHoverSound()
     {
         PlayEffect(ButtonHoverSound);
+    }
+
+    public void PlayButtonMainHover()
+    {
+        PlayEffect(ButtonMainHover);
     }
 
     public void PlayButtonClickSound()
