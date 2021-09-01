@@ -30,6 +30,8 @@ public class SoundSliders : MonoBehaviour
 
         if (IsMusic && Mixer.GetFloat("MusicVol", out value)) { _slider.value = ((Mathf.Pow(10, value / 20))); }
         if (!IsMusic && Mixer.GetFloat("SFXVol", out value)) { _slider.value = ((Mathf.Pow(10, value / 20))); }
+
+        SetVolumePercentage();
     }
 
     void SetVolumeLevel(float value, bool isMusic)
