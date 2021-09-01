@@ -107,8 +107,8 @@ MonoBehaviour:
   GearsList:
   - {fileID: 5030520175680796327}
   - {fileID: 5030520175256294999}
-  YellowLight: {fileID: 5030520175523166309}
-  RedLight: {fileID: 5030520175434539557}
+  YellowLight: {fileID: 6161616470926951965}
+  RedLight: {fileID: 7334753741730494484}
 --- !u!61 &338012244130573413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -576,7 +576,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5030520175523166306
 Transform:
   m_ObjectHideFlags: 0
@@ -838,7 +838,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4456136774882977232
 Transform:
   m_ObjectHideFlags: 0
