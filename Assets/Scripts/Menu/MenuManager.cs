@@ -27,6 +27,8 @@ public class MenuManager : Singleton<MenuManager>
     private void Start()
     {
         hiddenPanelPos = CreditsPanel.transform.position;
+
+        AudioManager.Instance.MenuTransition();
     }
 
     void MoveMenuPanels(GameObject panelToShow, GameObject panelToHide)

@@ -35,6 +35,7 @@ public class RotateToButton : MonoBehaviour, IPointerEnterHandler
         {
             Tween myTween = ImageToRotate.transform.DORotate(rotationVector, RotationTime).SetEase(Ease.Linear).OnComplete(StopGear);
             MenuManager.Instance.SetGeatTween(myTween);
+            AudioManager.Instance.PlayButtonMainHover();
 
             RotateGear();
         }
