@@ -334,6 +334,7 @@ public class PlayerController : MonoBehaviour
             if (currentSpawn != other.transform && !isDead)
             {
                 currentSpawn = other.transform;
+                other.GetComponent<CheckpointActivation>().SetCheckpointState(true);
             }
         }
     }

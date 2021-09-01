@@ -56,6 +56,12 @@ TextureImporter:
   - first:
       213: -2658555920768030867
     second: fondo_17
+  - first:
+      213: -7527746081754885154
+    second: Barquito
+  - first:
+      213: 6017100219223277003
+    second: Barquito 2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -538,6 +544,48 @@ TextureImporter:
       bones: []
       spriteID: d672c17c979ea1bd0800000000000000
       internalID: -2658555920768030867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barquito
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 3304
+        width: 163
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed359a582d2188790800000000000000
+      internalID: -7527746081754885154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barquito 2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 2384
+        width: 189
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd7ab8f4c8018350800000000000000
+      internalID: 6017100219223277003
       vertices: []
       indices: 
       edges: []
