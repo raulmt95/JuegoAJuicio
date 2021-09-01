@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -367,8 +367,9 @@ MonoBehaviour:
   HairCutSound: {fileID: 8300000, guid: c6ee116567f58964ca409a4fa974307a, type: 3}
   DeathSound: {fileID: 8300000, guid: c9b8aac78b85779439f9e4d6af4e4b31, type: 3}
   GroundedSound: {fileID: 8300000, guid: 1787bb854e87b724185ab5832b4f50d9, type: 3}
-  CheckpointSound: {fileID: 0}
-  ButtonHoverSound: {fileID: 8300000, guid: f12cb7d5f018a9749a6de9efa2660b57, type: 3}
+  CheckpointSound: {fileID: 8300000, guid: dc31c90f5e696aa499c7b7b2d6e9667b, type: 3}
+  ButtonHoverSound: {fileID: 8300000, guid: a74a6222ac3de4b45ac4be4be0cf08ed, type: 3}
+  ButtonMainHover: {fileID: 8300000, guid: 2c0aa925fb251904ea23cd548c2b228c, type: 3}
   ButtonClickSound: {fileID: 8300000, guid: 87a3e77cfc4e37f42be6da1a8076734f, type: 3}
 --- !u!4 &1175285714
 Transform:
