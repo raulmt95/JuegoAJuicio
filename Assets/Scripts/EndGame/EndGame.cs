@@ -45,9 +45,9 @@ public class EndGame : MonoBehaviour
         CartelCerrado.SetActive(true);
         DoorOpen.SetActive(false);
         TriggerWin.SetActive(false);
-        DOTween.To(() => camCM.m_Lens.OrthographicSize, x => camCM.m_Lens.OrthographicSize = x, 2f, 10f).Play();
+        DOTween.To(() => camCM.m_Lens.OrthographicSize, x => camCM.m_Lens.OrthographicSize = x, 2f, 7f).Play();
         camCM.m_LookAt = _playerController.transform;
-        Invoke(nameof(ByeCall), 8f);
+        Invoke(nameof(ByeCall), 5.5f);
     }
 
     private void ByeCall()

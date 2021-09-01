@@ -20,10 +20,12 @@ public class Goodbye : MonoBehaviour
     {
         v.profile.TryGet(out vig);
         Buttons.SetActive(false);
+        TheEndText.SetActive(false);
     }
 
     public void ByeBye()
     {
+        TheEndText.SetActive(true);
         TheEndText.transform.DOScale(1, Duration);
         DOTween.To(() => vig.intensity.value, x => vig.intensity.value = x, 1f, Duration).Play();
         Invoke(nameof(ActiveButtons), Duration);
