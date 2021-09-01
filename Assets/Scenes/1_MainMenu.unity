@@ -1686,9 +1686,9 @@ RectTransform:
   m_Father: {fileID: 1747875206}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 601.6, y: -143.9}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -373, y: -171}
   m_SizeDelta: {x: 575.1802, y: 149.21008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &576094216
@@ -3811,6 +3811,7 @@ MonoBehaviour:
   GroundedSound: {fileID: 8300000, guid: 1787bb854e87b724185ab5832b4f50d9, type: 3}
   CheckpointSound: {fileID: 0}
   ButtonHoverSound: {fileID: 8300000, guid: f12cb7d5f018a9749a6de9efa2660b57, type: 3}
+  ButtonMainHover: {fileID: 0}
   ButtonClickSound: {fileID: 8300000, guid: 87a3e77cfc4e37f42be6da1a8076734f, type: 3}
 --- !u!1 &1203226251
 GameObject:
@@ -4412,7 +4413,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 119.999985, y: 0}
-  m_SizeDelta: {x: 278.91055, y: 278.91055}
+  m_SizeDelta: {x: 275, y: 275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492776319
 MonoBehaviour:
