@@ -1,52 +1,79 @@
 fileFormatVersion: 2
-guid: 97082c3787750f349bc16221cb0a9519
+guid: d6b54aca3dd91724d87553a027c855b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5452499457927296823
-    second: UI_ajustes_0
+      213: -8877587999483299736
+    second: cosillas_v2_0
   - first:
-      213: -1077084401622752077
-    second: UI_ajustes_1
+      213: 5680770824602855423
+    second: cosillas_v2_1
   - first:
-      213: -5910228165118240838
-    second: UI_ajustes_2
+      213: -8504692730345377260
+    second: Vent1
   - first:
-      213: 6867754619534695081
-    second: UI_ajustes_3
+      213: -7716943176898352312
+    second: Vent2
   - first:
-      213: 7854962699218403115
-    second: UI_ajustes_4
+      213: -510237383948733815
+    second: Vent3
   - first:
-      213: 6007687307617605058
-    second: UI_ajustes_5
+      213: 6300260425279971966
+    second: Vent4
   - first:
-      213: -8235824162095274694
-    second: UI_ajustes_6
+      213: 6060373040788647500
+    second: cosillas_v2_6
   - first:
-      213: -1419914990641065646
-    second: UI_ajustes_7
+      213: -7536182820357200137
+    second: cosillas_v2_7
   - first:
-      213: 3766727621544409612
-    second: UI_ajustes_8
+      213: -6469507129772635426
+    second: cosillas_v2_8
   - first:
-      213: 1549319598323454052
-    second: UI_ajustes_9
+      213: -7504029882560985438
+    second: cosillas_v2_9
   - first:
-      213: -2125218604925847593
-    second: UI_ajustes_10
+      213: 2136345145832651311
+    second: cosillas_v2_10
   - first:
-      213: 559675434320723583
-    second: UI_ajustes_11
+      213: -7294980688240229180
+    second: cosillas_v2_11
   - first:
-      213: 6833912070520848974
-    second: UI_ajustes_12
+      213: -2161759953996140859
+    second: Titile_1
   - first:
-      213: 2859302654175706695
-    second: UI_ajustes_13
+      213: -1010549803617003437
+    second: cosillas_v2_13
   - first:
-      213: 8941967858305602918
-    second: UI_ajustes_14
+      213: -455627928082864137
+    second: TiTle_2
+  - first:
+      213: 3753527366297514865
+    second: cosillas_v2_15
+  - first:
+      213: 1019721109066001102
+    second: cosillas_v2_16
+  - first:
+      213: 3045592120096383653
+    second: cosillas_v2_17
+  - first:
+      213: -4162106767223642701
+    second: cosillas_v2_18
+  - first:
+      213: -6202876597705853336
+    second: cosillas_v2_19
+  - first:
+      213: 8373792150006934200
+    second: cosillas_v2_20
+  - first:
+      213: -4830090587738121180
+    second: Title_3
+  - first:
+      213: -4441502096086446301
+    second: cosillas_v2_22
+  - first:
+      213: 3103282650917979304
+    second: cosillas_v2_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -156,13 +183,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_ajustes_0
+      name: cosillas_v2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3209
-        width: 1926
-        height: 1044
+        x: 308
+        y: 4053
+        width: 99
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8cb30b1a4d454b0800000000000000
-      internalID: -5452499457927296823
+      spriteID: 868f68cffb87cc480800000000000000
+      internalID: -8877587999483299736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_1
+      name: Vent1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 3035
-        width: 246
-        height: 66
+        x: 3154
+        y: 3803
+        width: 395
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b46920817d6d01f0800000000000000
-      internalID: -1077084401622752077
+      spriteID: 412bae3850349f980800000000000000
+      internalID: -8504692730345377260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_2
+      name: Vent2
       rect:
         serializedVersion: 2
-        x: 682
-        y: 3064
-        width: 246
-        height: 66
+        x: 3809
+        y: 3788
+        width: 395
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab75e9c2cc6aafda0800000000000000
-      internalID: -5910228165118240838
+      spriteID: 84b69151119e7e490800000000000000
+      internalID: -7716943176898352312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_3
+      name: Vent3
       rect:
         serializedVersion: 2
-        x: 26
-        y: 2787
-        width: 169
-        height: 170
+        x: 4471
+        y: 3777
+        width: 395
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aad9e5807a2f4f50800000000000000
-      internalID: 6867754619534695081
+      spriteID: 9827c9a7dc54be8f0800000000000000
+      internalID: -510237383948733815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_4
+      name: Vent4
       rect:
         serializedVersion: 2
-        x: 230
-        y: 2791
-        width: 168
-        height: 169
+        x: 5115
+        y: 3770
+        width: 395
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2f3bd225fe620d60800000000000000
-      internalID: 7854962699218403115
+      spriteID: e72a3410a750f6750800000000000000
+      internalID: 6300260425279971966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_5
+      name: cosillas_v2_6
       rect:
         serializedVersion: 2
-        x: 418
-        y: 2866
-        width: 16
-        height: 45
+        x: 306
+        y: 3788
+        width: 95
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c59b24b6c79f5350800000000000000
-      internalID: 6007687307617605058
+      spriteID: c4eaf8edb25ca1450800000000000000
+      internalID: 6060373040788647500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_6
+      name: cosillas_v2_7
       rect:
         serializedVersion: 2
-        x: 447
-        y: 2866
-        width: 16
-        height: 45
+        x: 436
+        y: 3785
+        width: 95
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a356bb15f8974bd80800000000000000
-      internalID: -8235824162095274694
+      spriteID: 7f6253e37a91a6790800000000000000
+      internalID: -7536182820357200137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_7
+      name: cosillas_v2_8
       rect:
         serializedVersion: 2
-        x: 576
-        y: 2504
-        width: 472
-        height: 550
+        x: 567
+        y: 3783
+        width: 94
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +344,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 251569bc6d27b4ce0800000000000000
-      internalID: -1419914990641065646
+      spriteID: eda8b0ada81b736a0800000000000000
+      internalID: -6469507129772635426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_8
+      name: cosillas_v2_9
       rect:
         serializedVersion: 2
-        x: 19
-        y: 2698
-        width: 184
-        height: 67
+        x: 684
+        y: 3776
+        width: 94
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,20 +365,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0a7ec790da164430800000000000000
-      internalID: 3766727621544409612
+      spriteID: 2a6490274945cd790800000000000000
+      internalID: -7504029882560985438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_9
+      name: cosillas_v2_10
       rect:
         serializedVersion: 2
-        x: 221
-        y: 2698
-        width: 184
-        height: 66
+        x: 816
+        y: 3775
+        width: 95
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,20 +386,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 460de9d47f9408510800000000000000
-      internalID: 1549319598323454052
+      spriteID: f2a3cfe5792d5ad10800000000000000
+      internalID: 2136345145832651311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_10
+      name: cosillas_v2_11
       rect:
         serializedVersion: 2
-        x: 50
-        y: 2544
-        width: 126
-        height: 127
+        x: 310
+        y: 3150
+        width: 302
+        height: 303
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d7f75f40f4b182e0800000000000000
-      internalID: -2125218604925847593
+      spriteID: 4c44b1ae6b503ca90800000000000000
+      internalID: -7294980688240229180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_11
+      name: Titile_1
       rect:
         serializedVersion: 2
-        x: 265
-        y: 2556
-        width: 125
-        height: 128
+        x: 2643
+        y: 2038
+        width: 1197
+        height: 1157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,20 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7ef23c97dd54c700800000000000000
-      internalID: 559675434320723583
+      spriteID: 5ce256c76c2eff1e0800000000000000
+      internalID: -2161759953996140859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_12
+      name: TiTle_2
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1797
-        width: 1797
-        height: 618
+        x: 3936
+        y: 1912
+        width: 3345
+        height: 1765
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,20 +449,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4246ad02dee6de50800000000000000
-      internalID: 6833912070520848974
+      spriteID: 7f7afdc30d84da9f0800000000000000
+      internalID: -455627928082864137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_ajustes_13
+      name: Title_3
       rect:
         serializedVersion: 2
-        x: 46
-        y: 1142
-        width: 1799
-        height: 608
+        x: 2124
+        y: 22
+        width: 4627
+        height: 1749
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,29 +470,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74e797f5d984ea720800000000000000
-      internalID: 2859302654175706695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_ajustes_14
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 0
-        width: 1820
-        height: 981
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 665144bf360481c70800000000000000
-      internalID: 8941967858305602918
+      spriteID: 42c59ec833218fcb0800000000000000
+      internalID: -4830090587738121180
       vertices: []
       indices: 
       edges: []
