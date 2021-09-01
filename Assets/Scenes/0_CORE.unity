@@ -358,7 +358,7 @@ MonoBehaviour:
   MenuSnap: {fileID: 24500006, guid: c14818073a0e74c44a294688127b58cb, type: 2}
   GameSnap: {fileID: 8663953311203040545, guid: c14818073a0e74c44a294688127b58cb,
     type: 2}
-  MenuClip: {fileID: 8300000, guid: 34418f4bf898b3142b2b892cf065ea7c, type: 3}
+  MenuClip: {fileID: 8300000, guid: da9b7837af8e3bf4aa930924d4f3977c, type: 3}
   GameClip: {fileID: 8300000, guid: 97c9325242b14fe48a4cd71b85629776, type: 3}
   MinPitch: 0.8
   MaxPitch: 1.2
