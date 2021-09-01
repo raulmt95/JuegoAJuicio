@@ -333,6 +333,8 @@ public class PlayerController : MonoBehaviour
         {
             if (currentSpawn != other.transform && !isDead)
             {
+                AudioManager.Instance.PlayCheckpointSound();
+
                 currentSpawn = other.transform;
                 other.GetComponent<CheckpointActivation>().SetCheckpointState(true);
             }

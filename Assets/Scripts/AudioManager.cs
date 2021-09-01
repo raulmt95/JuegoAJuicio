@@ -11,6 +11,7 @@ public class AudioManager : Singleton<AudioManager>
     [Header("Audio Sources")]
     public AudioSource MusicAudioSource;
     public AudioSource SFXAudioSource;
+    public AudioSource HairGrowAudioSource;
 
     [Header("Audio Mixers")]
     public AudioMixerGroup MenuMusic;
@@ -34,6 +35,7 @@ public class AudioManager : Singleton<AudioManager>
     public AudioClip HairCutSound;
     public AudioClip DeathSound;
     public AudioClip GroundedSound;
+    public AudioClip CheckpointSound;
 
     [Header("UI Sounds")]
     public AudioClip ButtonHoverSound;
@@ -105,6 +107,24 @@ public class AudioManager : Singleton<AudioManager>
     public void PlayButtonClickSound()
     {
         PlayEffect(ButtonClickSound);
+    }
+
+    public void PlayCheckpointSound()
+    {
+        PlayEffect(CheckpointSound);
+    }
+
+    public void PlayHairGrowSound()
+    {
+        if (!HairGrowAudioSource.isPlaying)
+        {
+            HairGrowAudioSource.Play();
+        }
+    }
+
+    public void StopHairGrowSound()
+    {
+        HairGrowAudioSource.Stop();
     }
 
     #endregion

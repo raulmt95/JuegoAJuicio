@@ -63,8 +63,16 @@ public class Hair : MonoBehaviour
     {
         DrawHair();
 
-        if(Input.GetKey(GrowHairButton) && !_trapped)
+        if (Input.GetKey(GrowHairButton) && !_trapped)
+        {
+            AudioManager.Instance.PlayHairGrowSound();
             GrowHair();
+        }
+
+        if (Input.GetKeyUp(GrowHairButton))
+        {
+            AudioManager.Instance.StopHairGrowSound();
+        }
 
         if (_trapped)
         {
